@@ -1,15 +1,15 @@
 <?PHP
 /*
 Plugin Name: All in One Webmaster
-Plugin URI: http://icrunched.co/all-in-one-webmaster/
+Plugin URI: http://icrunch.co/all-in-one-webmaster/
 Description: Sitemap Submission option to Google, Bing. Options to add Google, Bing, Alexa, Facebook Insights, Facebook, Blogcatalog Webmaster Meta Tag. Options to add Google, Quantcast.com, GetClicky.com, Compete.com Analytics scripts for your blogs.
 Version: 8.0.0
 Author: icrunched
-Author URI: http://iCrunched.co
+Author URI: http://iCrunch.co
 */
 
 /*
-    Copyright (C) 2012 iCrunched.co
+    Copyright (C) 2012 iCrunch.co
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -69,7 +69,7 @@ function all_in_one_webmaster_head()
 	
 	$head_section = get_option('all_in_one_head_section');
 
-	echo "<!-- All in One Webmaster plugin by iCrunched.co -->";
+	echo "<!-- All in One Webmaster plugin by iCrunch.co -->";
 	if (!($head_section == ""))
 	{
 			echo $head_section . "\n";
@@ -362,10 +362,10 @@ function all_in_one_webmaster_options_page() {
 	<br>
 	<h3>Follow us on Twitter & Facebook to get latest update:</h3>
 	
-	<a href="https://twitter.com/iCrunched" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @iCrunched</a>
+	<a href="https://twitter.com/iCrunchCo" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @iCrunchCo</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FiCrunchedco%2F117867008360385&amp;width=292&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FiCrunch&amp;width=292&amp;height=62&amp;show_faces=false&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId=519929141369894" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
 
 	</div>
 
@@ -497,7 +497,7 @@ function all_in_one_webmaster_options_page() {
 							<th scope="row"><label>Custom Options<?=$new_icon?></label>
 							<br>
 							<br>
-							<a href="http://icrunched.co/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank"><code>Setup Help</code></a>
+							<a href="http://iCrunch.co/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank"><code>Setup Help</code></a>
 							</th>
 							
 						<td>
@@ -542,7 +542,7 @@ function all_in_one_webmaster_options_page() {
 
 		</div>
 	
-		<a href="http://icrunched.co/all-in-one-webmaster/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunched" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunched" target="_blank">Facebook</a>
+		<a href="http://iCrunch.co/all-in-one-webmaster/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunchCo" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>
 
 		<div class="submit">
 				<input type="submit" name="info_update1" class="button-primary" value="<?php _e('Update options'); ?> &raquo;" />
@@ -588,7 +588,7 @@ function all_in_one_webmaster_options_page() {
 				  <h3 class="hndle"><span>All in One Webmaster</span></h3>
 				  <div class="inside">
 	                <ul>
-	                <li><a href="http://icrunched.co/all-in-one-webmaster/" title="All in One Webmaster" target="_blank">Plugin Homepage</a></li>
+	                <li><a href="http://iCrunch.co/all-in-one-webmaster/" title="All in One Webmaster" target="_blank">Plugin Homepage</a></li>
 	                </ul>          
 					</div>
 				</div>
@@ -599,11 +599,11 @@ function all_in_one_webmaster_options_page() {
 				  <h3 class="hndle"><span>My Other Plugins</span></h3>
 				  <div class="inside">
 					<ul>
-					<li>1) <a href="http://icrunched.co/twitter-goodies/" title="Twitter Goodies" target="_blank">Twitter Goodies</a></li>
-					<li>2) <a href="http://icrunched.co/wp-google-buzz/" title="All in One Webmaster" target="_blank">WP Google Buzz</a></li>
-					<li>3) <a href="http://icrunched.co/wp-archive-sitemap-generator/" title="WP Archive-Sitemap Generator" target="_blank">WP Archive-Sitemap Generator</a></li>
-					<li>4) <a href="http://icrunched.co/foursquare-integration/" title="FourSquare Integration" target="_blank">FourSquare Integration</a></li>
-					<li>5) <a href="http://icrunched.co/facebook-members/" title="Facebook Members" target="_blank">Facebook Members</a></li>
+					<li>1) <a href="http://iCrunch.co/twitter-goodies/" title="Twitter Goodies" target="_blank">Twitter Goodies</a></li>
+					<li>2) <a href="http://iCrunch.co/wp-google-buzz/" title="All in One Webmaster" target="_blank">WP Google Buzz</a></li>
+					<li>3) <a href="http://iCrunch.co/wp-archive-sitemap-generator/" title="WP Archive-Sitemap Generator" target="_blank">WP Archive-Sitemap Generator</a></li>
+					<li>4) <a href="http://iCrunch.co/foursquare-integration/" title="FourSquare Integration" target="_blank">FourSquare Integration</a></li>
+					<li>5) <a href="http://iCrunch.co/facebook-members/" title="Facebook Members" target="_blank">Facebook Members</a></li>
 					</ul>
 				  </div>
 				</div>
