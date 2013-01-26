@@ -1,5 +1,5 @@
 === All in One Webmaster ===
-Contributors: icrunched
+Contributors: iCrunch
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights
 Requires at least: 3.2
