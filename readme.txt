@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights
 Requires at least: 3.2
 Tested up to: 3.5.1
-Stable tag: 8.0.0
+Stable tag: 8.1
 
 Sitemap submission to Google,Bing,Yahoo & Ask. Webmaster option for Google,Bing,Facebook & BlogCatalog. Analytics option for Google Quantcast, Clicky, compete.com. Header/Footer.
 
@@ -87,6 +87,10 @@ Subscribe to Twitter and Facebook to get **latest update**:
 5. Sitemap submission result in Admin Panel
 
 == Changelog ==
+
+= 8.1 =
+* Minor bug fix
+* Plugin Homepage link updated
 
 = 8.0.0 = 
 * Placed Analytics Option Added.
