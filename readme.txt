@@ -3,7 +3,7 @@ Contributors: icrunched
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights
 Requires at least: 3.2
-Tested up to: 3.4.2
+Tested up to: 3.5.1
 Stable tag: 8.0.0
 
 Sitemap submission to Google,Bing,Yahoo & Ask. Webmaster option for Google,Bing,Facebook & BlogCatalog. Analytics option for Google Quantcast, Clicky, compete.com. Header/Footer.
@@ -18,9 +18,9 @@ This plugin allows you to easily integrate them with your blog. It has option to
 
 Subscribe to Twitter and Facebook to get **latest update**:
 
-[Twitter](http://twitter.com/iCrunched) |
-[Facebook](http://www.facebook.com/iCrunched) |
-[Feedback](http://icrunched.co/all-in-one-webmaster/) |
+[Twitter](http://twitter.com/iCrunchCo) |
+[Facebook](http://www.facebook.com/iCrunch) |
+[Feedback](http://icrunch.co/all-in-one-webmaster/) |
 [Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/all-in-one-webmaster/screenshots/)
 
 **Features**
@@ -67,16 +67,16 @@ Subscribe to Twitter and Facebook to get **latest update**:
 * I assume that `wp_head()` and `wp_footer()` are there in your theme. According to the WordPress documentation both functions are theme-dependent which means that it is up to the author of each WordPress theme to include it. If one of the hooks is not in your theme, you could add it yourself by adding `<? php wp_head(); ?>` to your header.php file of your theme or `<? php wp_footer(); ?>` to footer.php. 
 
 = Where do I get latest updates on plugin? =
-* On <a href="http://twitter.com/iCrunched" target="_blank">Twitter</a> and <a href="http://www.facebook.com/iCrunched" target="_blank">Facebook</a>.
+* On <a href="http://twitter.com/iCrunchCo" target="_blank">Twitter</a> and <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>.
 
 = How can I add more service meta tags which are not listed here? =
 * No worries. You can add those service's HTML code into text area provided in admin panel. 
 
 = Have a question on Placed Analytics? =
-* Please visit <a href="http://icrunched.co/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank">Help Section</a>. 
+* Please visit <a href="http://icrunch.co/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank">Help Section</a>. 
 
 = Got a Question? =
-* Please report your questions or bugs at Plugin <a href="http://icrunched.co/all-in-one-webmaster/" target="_blank">Homepage</a>.
+* Please report your questions or bugs at Plugin <a href="http://icrunch.co/all-in-one-webmaster/" target="_blank">Homepage</a>.
 * NOTE: I've created this plugin as of my personal interest only. 
 
 == Screenshots ==
@@ -90,8 +90,8 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 = 8.0.0 = 
 * Placed Analytics Option Added.
-* Questions on Placed analytics? Visit <a href="http://icrunched.co/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank">here</a>.
-* Visit <a href="http://icrunched.co/all-in-one-webmaster/" target="_blank">Plugin Homepage</a> for detailed changelog.
+* Questions on Placed analytics? Visit <a href="http://icrunch.co/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank">here</a>.
+* Visit <a href="http://icrunch.co/all-in-one-webmaster/" target="_blank">Plugin Homepage</a> for detailed changelog.
 
 = 7.7.7 and Previous Change log =
 * Please visit plugin home page for detailed info.
