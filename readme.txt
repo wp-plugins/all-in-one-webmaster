@@ -1,10 +1,10 @@
 === All in One Webmaster ===
 Contributors: iCrunch
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
-Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights
+Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips, 
 Requires at least: 3.2
 Tested up to: 3.5.1
-Stable tag: 8.1
+Stable tag: 8.2
 
 Sitemap submission to Google,Bing,Yahoo & Ask. Webmaster option for Google,Bing,Facebook & BlogCatalog. Analytics option for Google Quantcast, Clicky, compete.com. Header/Footer.
 
@@ -87,6 +87,17 @@ Subscribe to Twitter and Facebook to get **latest update**:
 5. Sitemap submission result in Admin Panel
 
 == Changelog ==
+
+= 8.2 =
+* Major code upgrade.
+* Admin Panel Options now in Tabular Form.
+* Tab1: All WebMaster Options except Placed Analytics.
+* Tab2: Analytics Options.
+* Tab3: Placed Analytics.
+* Admin Panel ToopTip added.
+* Better Performance.
+* Many more Bug fixes.
+* Make sure your settings are uptodate after plugin update.
 
 = 8.1 =
 * Minor bug fix

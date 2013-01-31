@@ -2,14 +2,14 @@
 /*
 Plugin Name: All in One Webmaster
 Plugin URI: http://icrunch.co/all-in-one-webmaster/
-Description: Sitemap Submission option to Google, Bing. Options to add Google, Bing, Alexa, Facebook Insights, Facebook, Blogcatalog Webmaster Meta Tag. Options to add Google, Quantcast.com, GetClicky.com, Compete.com Analytics scripts for your blogs.
-Version: 8.1
+Description: Sitemap Submission option to Google, Bing. Options to add Google, Bing, Alexa, Facebook Insights, Facebook, SEO, Blogcatalog Webmaster Meta Tag. Options to add Google, Quantcast.com, GetClicky.com, Compete.com Analytics scripts for your blogs.
+Version: 8.2
 Author: iCrunch
 Author URI: http://iCrunch.co
 */
 
 /*
-    Copyright (C) 2012 iCrunch.co
+    Copyright (C) 2017-2013 iCrunch.co
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -296,11 +296,11 @@ function all_in_one_webmaster_options_page() {
 
 				$statusTag = substr($finalMessage,0,4);
 				if ($statusTag == 'DONE') {
-					$icon = '<img border="0" src="'.$icon_url.'/wp-content/plugins/all-in-one-webmaster/yes.jpg" /> ';
+					$icon = '<img border="0" src="'.$icon_url.'/wp-content/plugins/all-in-one-webmaster/images/yes.jpg" /> ';
 					$alter_link = '<br />';
 					}
 				else if ($statusTag == 'NOPE') {
-					$icon = '<img border="0" src="'.$icon_url.'/wp-content/plugins/all-in-one-webmaster/fail.jpg" /> ';
+					$icon = '<img border="0" src="'.$icon_url.'/wp-content/plugins/all-in-one-webmaster/images/fail.jpg" /> ';
 					$submission_URL1 = $search_engine.$sitemap_URL1;
 					$alter_link = '<a href="'.$submission_URL1.'" target="_blank"> (Try manually)</a><br /><br />';
 					}
@@ -347,271 +347,37 @@ function all_in_one_webmaster_options_page() {
 	
 	
 	$icon_url = get_bloginfo( 'wpurl' );
-	$help_icon = '<img border="0" src="'.$icon_url.'/wp-content/plugins/all-in-one-webmaster/help.gif" /> ';
-	$new_icon = '<img border="0" src="'.$icon_url.'/wp-content/plugins/all-in-one-webmaster/new.gif" /> ';
+	$help_icon = '<img border="0" src="'.$icon_url.'/wp-content/plugins/all-in-one-webmaster/images/help.gif" /> ';
+	$new_icon = '<img border="0" src="'.$icon_url.'/wp-content/plugins/all-in-one-webmaster/images/new.gif" /> ';
+ 
+	$aiow_google_web = '<img border="0" id="aioweast1" value="Tip" title="Visit http://www.google.com/webmasters/ to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
+
+    $aiow_bing_web = '<img border="0" id="aioweast2" value="Tip" title="Visit http://www.bing.com/webmaster/ to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
+
+	$aiow_alexa_web = '<img border="0" id="aioweast3" value="Tip" title="Visit http://www.alexa.com/" to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
+
+    $aiow_blogcatalog_web = '<img border="0" id="aioweast4" value="Tip" title="Visit http://www.blogcatalog.com/ to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
+
+    $aiow_fbinsight_web = '<img border="0" id="aioweast5" value="Tip" title="Visit http://www.facebook.com/insights/" to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
+
+    $aiow_google_ana = '<img border="0" id="aioweast6" value="Tip" title="Visit http://www.google.com/analytics/ to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
+
+    $aiow_quantcast_ana = '<img border="0" id="aioweast7" value="Tip" title="Visit http://www.quantcast.com/" to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
+
+    $aiow_clicky_ana = '<img border="0" id="aioweast8" value="Tip" title="Visit http://getclicky.com/user/" to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
+
+    $aiow_compete_ana = '<img border="0" id="aioweast9" value="Tip" title="Visit http://www.compete.com/" to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
+
+    $aiow_sitemeter_ana = '<img border="0" id="aioweast10" value="Tip" title="Visit http://sitemeter.com" to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
+
+    $aiow_placed_ana = '<img border="0" id="aioweast11" value="Tip" title="Visit http://www.placed.com" to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
 
 	?>
-   <div class=wrap>
-
-    <form method="post" action="<?php echo $_SERVER["REQUEST_URI"]; ?>">
-    <input type="hidden" name="info_update1" id="info_update1" value="true" />
-
-    <u><h2>All in One Webmaster Options</h2></u>
-
-	<div align="left">
-	<br>
-	<h3>Follow us on Twitter & Facebook to get latest update:</h3>
 	
-	<a href="https://twitter.com/iCrunchCo" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @iCrunchCo</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FiCrunch&amp;width=292&amp;height=62&amp;show_faces=false&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId=519929141369894" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
-
-	</div>
-
-	<div id="poststuff" class="metabox-holder has-right-sidebar">
-
-	<div style="float:left;width:63%;">
-
-<br>
-		<div class="postbox">
-		<h3>Webmaster Options</h3>
-			<div>
-			<table class="form-table">
-
-			<tr valign="top" class="alternate">
-					<th scope="row" style="width:32%;"><label>1) <b>Google</b> WebMaster Central</label></th>
-				<td>
-				 <input name="all_in_one_google_webmaster" type="text" size="55" value="<?php echo get_option('all_in_one_google_webmaster'); ?>" /> <a href="http://www.google.com/webmasters/" target="_blank" title="Click to visit Google Webmaster Central"><?=$help_icon?></a>
-				 <br />(meta name="google-site-verification" content="<font color="red"><code>Volxdfasfasd3i3e_wATasfdsSDb0uFqvNVhLk7ZVY</code></font>")<br />
-
-				</td>
-			</tr>
-			<tr valign="top">
-					<th scope="row" style="width:32%;"><label>2) <b>Bing</b> WebMaster Center</label></th>
-				<td>
-				 <input name="all_in_one_bing_webmaster" type="text" size="55" value="<?php echo get_option('all_in_one_bing_webmaster'); ?>" /> <a href="http://www.bing.com/webmaster/" target="_blank" title="Click to visit Bing Webmaster Center"><?=$help_icon?></a>
-				 <br />(meta name="msvalidate.01" content="<font color="red"><code>ASBKDW71D43Z67AB2D39636C89B88A</code></font>")<br />
-
-				</td>
-			</tr>
-			<tr valign="top">
-					<th scope="row" style="width:32%;"><label>3) <b>Alexa</b> Rank</label></th>
-				<td>
-				 <input name="all_in_one_alexa_webmaster" type="text" size="55" value="<?php echo get_option('all_in_one_alexa_webmaster'); ?>" /> <a href="http://www.alexa.com/" target="_blank" title="Click to visit Alexa.com Rank Site"><?=$help_icon?></a>
-				 <br />(meta name="alexaVerifyID" content="<font color="red"><code>OKJ3RsasdfKHGST1uqa8zcBfrjtY</code></font>")<br />
-				</td>
-			</tr>
-			<tr valign="top" class="alternate">
-					<th scope="row" style="width:32%;"><label>4) <b>BlogCatalog</b></label><?=$new_icon?></th>
-				<td>
-				 <input name="all_in_one_bcatalog_webmaster" type="text" size="55" value="<?php echo get_option('all_in_one_bcatalog_webmaster'); ?>" /> <a href="http://www.blogcatalog.com/" target="_blank" title="Click to visit BlogCatalog.com"><?=$help_icon?></a>
-				 <br />(meta name="blogcatalog" content="<font color="red"><code>7DS9234212</code></font>")<br />
-				</td>
-			</tr>
-
-			<tr valign="top">
-					<th scope="row" style="width:32%;"><label>5) <b>Facebook Insights</b></label><?=$new_icon?></th>
-				<td>
-				 <input name="all_in_one_fbinsights_webmaster" type="text" size="55" value="<?php echo get_option('all_in_one_fbinsights_webmaster'); ?>" /> <a href="http://www.facebook.com/insights/" target="_blank" title="Click to visit Facebook Insight"><?=$help_icon?></a>
-				 <br />(meta property="fb:admins" content="<font color="red"><code>573435354</code></font>")<br />
-				</td>
-			</tr>
-			</table>
-			</div>
-		</div>
-
-		<div class="submit">
-				<input type="submit" name="info_update1" class="button-primary" value="<?php _e('Update options'); ?> &raquo;" />
-
-		</div>
-
-		<div class="postbox">
-		<h3>Analytics Options</h3>
-			<div>
-			<table class="form-table">
-
-			<tr valign="top" class="alternate">
-					<th scope="row" style="width:32%;"><label>1) <b>Google</b> Analytics</label></th>
-				<td>
-					<input name="all_in_one_google_analytics" type="text" size="55" value="<?php echo get_option('all_in_one_google_analytics'); ?>" /> <a href="http://www.google.com/analytics/" target="_blank" title="Click to visit Google Analytics"><?=$help_icon?></a>
-					<br />(Web Property ID: <font color="red"><code>UA-8123456-1</code></font>)<br />
-				</td>
-			</tr>
-
-			<tr valign="top">
-					<th scope="row" style="width:32%;"><label>2) <b>Quantcast</b> Analytics</label></th>
-				<td>
-					<input name="all_in_one_quantcast_analytics" type="text" size="55" value="<?php echo get_option('all_in_one_quantcast_analytics'); ?>" /> <a href="http://www.quantcast.com/" target="_blank" title="Click to visit Quantcast Analytics"><?=$help_icon?></a>
-					<br />(qacct value. i.e. <font color="red"><code>p-a8SWEoiOWPo5Q</code></font>)<br />
-				</td>
-			</tr>
-
-			<tr valign="top" class="alternate">
-					<th scope="row" style="width:32%;"><label>3) <b>Clicky</b> Analytics</label></th>
-				<td>
-					<input name="all_in_one_clicky_analytics" type="text" size="55" value="<?php echo get_option('all_in_one_clicky_analytics'); ?>" /> <a href="http://getclicky.com/user/" target="_blank" title="Please go to this link and click Preferences under the name of the domain, you will find the Site ID. "><?=$help_icon?></a>
-					<br />(Site ID: <font color="red"><code>324543</code></font>)<br />
-				</td>
-			</tr>
-
-			<tr valign="top">
-					<th scope="row" style="width:32%;"><label>4) <b>Compete</b> Analytics</label></th>
-				<td>
-					<input name="all_in_one_compete_analytics" type="text" size="55" value="<?php echo get_option('all_in_one_compete_analytics'); ?>" /> <a href="http://compete.com/" target="_blank" title="Please go to this Site and Register to get Code. "><?=$help_icon?></a>
-					<br />(__compete_code = '<font color="red"><code>07a543238f9kdwjga0d280bd70534990a</code></font>')<br />
-				</td>
-			</tr>
-
-			<tr valign="top" class="alternate">
-					<th scope="row" style="width:32%;"><label>5) <b>SiteMeter</b> Analytics/Tracking</label></th>
-				<td>
-					<input name="all_in_one_sitemeter_analytics" type="text" size="55" value="<?php echo get_option('all_in_one_sitemeter_analytics'); ?>" /> <a href="http://www.sitemeter.com/" target="_blank" title="Please go to this Site and Register to get Code. "><?=$help_icon?></a>
-					<br />(src="<font color="red"><code>http://s44.sitemeter.com/js/counter.js?site=s44AShah</code></font>")<br />
-				</td>
-			</tr>
-
-			</table>
-			</div>
-		</div>
-
-		<div class="submit">
-				<input type="submit" name="info_update1" class="button-primary" value="<?php _e('Update options'); ?> &raquo;" />
-
-		</div>
-		
-		<div class="postbox">
-		<h3>Placed Analytics<?=$new_icon?></h3>
-			<div>
-			<table class="form-table">
-
-			<tr valign="top">
-					<th scope="row" style="width:32%;"><label><b>Placed</b> Application Key</label></th>
-				<td>
-					<input name="all_in_one_placed_analytics" type="text" size="55" value="<?php echo get_option('all_in_one_placed_analytics'); ?>" /> <a href="http://www.placed.com/" target="_blank" title="Please go to this Site and Register to get Code. "><?=$help_icon?></a>
-					<br />Application Key <font color="red"><code>a6e1321039ab</code></font><br />
-				</td>
-			</tr>
-			
-					<tr valign="top" class="alternate">
-							<th scope="row"><label>Custom Options<?=$new_icon?></label>
-							<br>
-							<br>
-							<a href="http://iCrunch.co/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank"><code>Setup Help</code></a>
-							</th>
-							
-						<td>
-							 <input name="all_in_one_placed_mobile_only" type="checkbox"<?php if(get_option('all_in_one_placed_mobile_only')!='-1') echo 'checked="checked"'; ?> value="1" /> &nbsp;&nbsp;<code>Check</code> if you have selected ONLY Non-Mobile version. (Default: unchecked)<br>
-							 unchecked = Web + Mobile <br>
-							 checked = Non-Mobile Version
-							 <br>
-							 <br>
-							 <input name="all_in_one_placed_tag_type" type="checkbox"<?php if(get_option('all_in_one_placed_tag_type')!='-1') echo 'checked="checked"'; ?> value="1" /> &nbsp;&nbsp;<code>Check</code> if you have selected Site Domain. (Default: unchecked)<br>
-							unchecked = tag type (placed.com) <br>
-							checked = tag type (site domain) 
-						</td>
-					</tr>			
-			
-			</table>
-			</div>
-		</div>
-		<div class="submit">
-				<input type="submit" name="info_update1" class="button-primary" value="<?php _e('Update options'); ?> &raquo;" />
-
-		</div>
-
-		<div class="postbox">
-		<h3>Extra HTML code to be inserted in to Header or Footer Section</h3>
-			<div>
-			<table class="form-table">
-
-			<tr valign="top" class="alternate">
-
-				<th scope="row" style="width:32%;"><label>1) <b>Header</b> Section</label><?=$new_icon?><br><br>Add <b>ONLY HTML</b> code to the <code>head</code> of your blog</th>
-
-				<td><textarea name="all_in_one_head_section" cols="60" rows="5"><?php echo get_option('all_in_one_head_section'); ?></textarea></td>
-			</tr>
-			<tr valign="top">
-				<th scope="row" style="width:32%;"><label>2) <b>Footer</b> Section</label><?=$new_icon?><br><br>Add <b>ONLY HTML</b> code to the <code>footer</code> of your blog</th>
-
-				<td><textarea name="all_in_one_footer_section" cols="60" rows="5"><?php echo get_option('all_in_one_footer_section'); ?></textarea></td>
-			</tr>
-
-			</table>
-			</div>
-
-		</div>
+	<?php
+    require_once (dirname(__FILE__) . '/includes/settings-page.php');
+    ?>
 	
-		<a href="http://iCrunch.co/all-in-one-webmaster/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunchCo" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>
-
-		<div class="submit">
-				<input type="submit" name="info_update1" class="button-primary" value="<?php _e('Update options'); ?> &raquo;" />
-
-		</div>
-		</form>
-
-		<form method="post" mame="info_update2" action="<?php echo $_SERVER["REQUEST_URI"]; ?>">
-			<input type="hidden" name="info_update2" id="info_update2" value="true" />
-
-			<div class="postbox">
-				<h3>Automatic sitemap submission to Google and Bing</h3>
-					<div>
-					<table class="form-table">
-
-					<tr valign="top" class="alternate">
-							<th scope="row" style="width:29%;"><label>Please provide existing Sitemap URL</label></th>
-							<td>
-								<input name="sitemap_URL" type="text" size="75" value="<?php echo get_option('sitemap_URL'); ?>" />
-								<br />
-								(example: http://example.com/sitemap.xml)
-							</td>
-					</tr>
-
-					</table>
-
-					</div>
-			</div>
-
-					<div class="submit">
-						<input type="submit" name="info_update2" class="button-primary" value="<?php _e('Submit to Google and Bing'); ?> &raquo;" />
-
-					</div>
-
-
-<?=$show_sitemap?>
-   			</form>
-
-	</div>
-
-				 <div id="side-info-column" class="inner-sidebar">
-				<div class="postbox">
-				  <h3 class="hndle"><span>All in One Webmaster</span></h3>
-				  <div class="inside">
-	                <ul>
-	                <li><a href="http://iCrunch.co/all-in-one-webmaster/" title="All in One Webmaster" target="_blank">Plugin Homepage</a></li>
-	                </ul>          
-					</div>
-				</div>
-     </div>
-          <br>
-			<div id="side-info-column" class="inner-sidebar">
-				<div class="postbox">
-				  <h3 class="hndle"><span>My Other Plugins</span></h3>
-				  <div class="inside">
-					<ul>
-					<li>1) <a href="http://iCrunch.co/twitter-goodies/" title="Twitter Goodies" target="_blank">Twitter Goodies</a></li>
-					<li>2) <a href="http://iCrunch.co/wp-google-buzz/" title="All in One Webmaster" target="_blank">WP Google Buzz</a></li>
-					<li>3) <a href="http://iCrunch.co/wp-archive-sitemap-generator/" title="WP Archive-Sitemap Generator" target="_blank">WP Archive-Sitemap Generator</a></li>
-					<li>4) <a href="http://iCrunch.co/foursquare-integration/" title="FourSquare Integration" target="_blank">FourSquare Integration</a></li>
-					<li>5) <a href="http://iCrunch.co/facebook-members/" title="Facebook Members" target="_blank">Facebook Members</a></li>
-					</ul>
-				  </div>
-				</div>
-		     </div>
-	
-	
-</div>
-</div>
 	<?php
 }
 
@@ -619,10 +385,30 @@ function all_in_one_webmaster_admin() {
 	add_options_page('All in One Webmaster', 'All in One Webmaster', 8, __FILE__, 'all_in_one_webmaster_options_page');
 }
 
-// admin stuff
-add_action('admin_menu', 'all_in_one_webmaster_admin');
+function aiow_plugin_admin_init()
+{
+    wp_register_script('aiow-plugin-script2', plugins_url('/js/jquery-ui.js', __FILE__));
+    wp_enqueue_script('aiow-plugin-script2');
 
-// do the work of this plugin!
+    wp_register_script('aiow-plugin-script3', plugins_url('/js/myscript.js', __FILE__));
+    wp_enqueue_script('aiow-plugin-script3');
+
+    wp_register_script('aiow-plugin-script4', plugins_url('/js/jquery.powertip.js', __FILE__));
+    wp_enqueue_script('aiow-plugin-script4');
+
+    wp_register_style('aiow-plugin-css', plugins_url('/css/jquery-ui.css', __FILE__));
+    wp_enqueue_style('aiow-plugin-css');
+
+    wp_register_style('aiow-tip-plugin-css', plugins_url('/css/jquery.powertip.css', __FILE__));
+    wp_enqueue_style('aiow-tip-plugin-css');
+
+    wp_register_style('aiow-member-plugin-css', plugins_url('/css/all-in-one-webmaster.css', __FILE__));
+    wp_enqueue_style('aiow-member-plugin-css');
+}
+
+
+add_action('admin_menu', 'aiow_plugin_admin_init');
+add_action('admin_menu', 'all_in_one_webmaster_admin');
 add_action('wp_head', 'all_in_one_webmaster_head');
 add_action('wp_footer', 'all_in_one_webmaster_footer');
 
