@@ -3,7 +3,7 @@
 Plugin Name: All in One Webmaster
 Plugin URI: http://icrunch.co/all-in-one-webmaster/
 Description: Sitemap Submission option to Google, Bing. Options to add Google, Bing, Alexa, Facebook Insights, Facebook, SEO, Blogcatalog Webmaster Meta Tag. Options to add Google, Quantcast.com, GetClicky.com, Compete.com Analytics scripts for your blogs.
-Version: 8.2
+Version: 8.2.1
 Author: iCrunch
 Author URI: http://iCrunch.co
 */
@@ -387,9 +387,10 @@ function all_in_one_webmaster_admin() {
 
 function aiow_plugin_admin_init()
 {
-    wp_register_script('aiow-plugin-script2', plugins_url('/js/jquery-ui.js', __FILE__));
-    wp_enqueue_script('aiow-plugin-script2');
-
+	wp_enqueue_script('jquery');                    // Enque Default jQuery
+	wp_enqueue_script('jquery-ui-core');            // Enque Default jQuery UI Core
+	wp_enqueue_script('jquery-ui-tabs');            // Enque Default jQuery UI Tabs
+	
     wp_register_script('aiow-plugin-script3', plugins_url('/js/myscript.js', __FILE__));
     wp_enqueue_script('aiow-plugin-script3');
 

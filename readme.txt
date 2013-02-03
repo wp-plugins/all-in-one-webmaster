@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips, 
 Requires at least: 3.2
 Tested up to: 3.5.1
-Stable tag: 8.2
+Stable tag: 8.2.1
 
 Sitemap submission to Google,Bing,Yahoo & Ask. Webmaster option for Google,Bing,Facebook & BlogCatalog. Analytics option for Google Quantcast, Clicky, compete.com. Header/Footer.
 
@@ -87,6 +87,13 @@ Subscribe to Twitter and Facebook to get **latest update**:
 5. Sitemap submission result in Admin Panel
 
 == Changelog ==
+
+= 8.2.1 =
+* Performance Improvement: Loading default WordPress JQuery instead of laoding from Plugin directory.
+* JQuery.js and JQuery-ui.js files removed from plugin folder (Unnecessary files).
+* Fixed some typos.
+* Bug fixes.
+* Quick Tips will now show on top instead of right side.
 
 = 8.2 =
 * Major code upgrade.
