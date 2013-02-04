@@ -18,8 +18,8 @@
                     Google Buzz</a></li>
                 <li>3) <a href="http://iCrunch.co/wp-archive-sitemap-generator/" title="WP Archive-Sitemap Generator"
                           target="_blank">WP Archive-Sitemap Generator</a></li>
-                <li>4) <a href="http://iCrunch.co/foursquare-integration/" title="FourSquare Integration"
-                          target="_blank">FourSquare Integration</a></li>
+                <li>4) <a href="http://iCrunch.co/foursquare-checkins/" title="FourSquare Checkins"
+                          target="_blank">FourSquare Checkins</a></li>
                 <li>5) <a href="http://iCrunch.co/facebook-members/" title="Facebook Members" target="_blank">Facebook
                     Members</a></li>
             </ul>
