@@ -1,6 +1,6 @@
 <?php
 /**
- * @author iCrunch.co
+ * @author Crunchify.co
  * Plugin: All in One Webmaster
  */
 ?>
@@ -25,7 +25,7 @@
                 <th scope="row"><label>Custom Options<?=$new_icon?></label>
                     <br>
                     <br>
-                    <a href="http://iCrunch.co/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/"
+                    <a href="http://Crunchify.co/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/"
                        target="_blank"><code>Setup Help</code></a>
                 </th>
 

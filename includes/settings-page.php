@@ -1,6 +1,6 @@
 <?php
 /**
- * @author iCrunch.co
+ * @author Crunchify.co
  * Plugin: All in One Webmaster
  */
 ?>
@@ -15,8 +15,8 @@
           <div align="left">
               <br>
 
-              <a href="https://twitter.com/iCrunchCo" class="twitter-follow-button" data-show-count="false"
-                 data-size="large">Follow @iCrunchCo</a>
+              <a href="https://twitter.com/CrunchifyCo" class="twitter-follow-button" data-show-count="false"
+                 data-size="large">Follow @CrunchifyCo</a>
               <script>!function (d, s, id) {
                   var js, fjs = d.getElementsByTagName(s)[0];
                   if (!d.getElementById(id)) {

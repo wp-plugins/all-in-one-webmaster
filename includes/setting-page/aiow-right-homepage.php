@@ -1,6 +1,6 @@
 <?php
 /**
- * @author iCrunch.co
+ * @author Crunchify.co
  * Plugin: All in One Webmaster
  */
 ?>
@@ -12,7 +12,7 @@
 
         <div class="inside">
             <ul>
-                <li><a href="http://iCrunch.co/all-in-one-webmaster/" title="All in One Webmaster" target="_blank">Plugin
+                <li><a href="http://Crunchify.co/all-in-one-webmaster/" title="All in One Webmaster" target="_blank">Plugin
                     Homepage</a></li>
             </ul>
         </div>
