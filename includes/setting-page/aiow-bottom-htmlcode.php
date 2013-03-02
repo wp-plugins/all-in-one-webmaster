@@ -1,6 +1,6 @@
 <?php
 /**
- * @author iCrunch.co
+ * @author Crunchify.co
  * Plugin: All in One Webmaster
  */
 ?>
@@ -34,7 +34,7 @@
 
 </div>
 
-<a href="http://iCrunch.co/all-in-one-webmaster/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunchCo"
+<a href="http://Crunchify.co/all-in-one-webmaster/" target="_blank">Feedback</a> | <a href="http://twitter.com/CrunchifyCo"
                                                                                     target="_blank">Twitter</a> | <a
         href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>
 
