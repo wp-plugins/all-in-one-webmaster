@@ -6,7 +6,7 @@ Requires at least: 3.2
 Tested up to: 3.6-alpha
 Stable tag: 8.2.2
 
-Sitemap submission to Google,Bing,Yahoo & Ask. Webmaster option for Google,Bing,Facebook & BlogCatalog. Analytics option for Google Quantcast, Clicky, compete.com. Header/Footer.
+Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc. Analytics option 4 Google, Placed, Quantcast, Clicky, Compete
 
 == Description ==
 
