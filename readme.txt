@@ -3,8 +3,8 @@ Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips, 
 Requires at least: 3.2
-Tested up to: 3.5.1
-Stable tag: 8.2.1
+Tested up to: 3.6-alpha
+Stable tag: 8.2.2
 
 Sitemap submission to Google,Bing,Yahoo & Ask. Webmaster option for Google,Bing,Facebook & BlogCatalog. Analytics option for Google Quantcast, Clicky, compete.com. Header/Footer.
 
@@ -18,7 +18,7 @@ This plugin allows you to easily integrate them with your blog. It has option to
 
 Subscribe to Twitter and Facebook to get **latest update**:
 
-[Twitter](http://twitter.com/CrunchifyCo) |
+[Twitter](http://twitter.com/Crunchify) |
 [Facebook](http://www.facebook.com/iCrunch) |
 [Feedback](http://Crunchify.co/all-in-one-webmaster/) |
 [Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/all-in-one-webmaster/screenshots/)
@@ -67,7 +67,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 * I assume that `wp_head()` and `wp_footer()` are there in your theme. According to the WordPress documentation both functions are theme-dependent which means that it is up to the author of each WordPress theme to include it. If one of the hooks is not in your theme, you could add it yourself by adding `<? php wp_head(); ?>` to your header.php file of your theme or `<? php wp_footer(); ?>` to footer.php. 
 
 = Where do I get latest updates on plugin? =
-* On <a href="http://twitter.com/CrunchifyCo" target="_blank">Twitter</a> and <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>.
+* On <a href="http://twitter.com/Crunchify" target="_blank">Twitter</a> and <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>.
 
 = How can I add more service meta tags which are not listed here? =
 * No worries. You can add those service's HTML code into text area provided in admin panel. 
@@ -87,6 +87,12 @@ Subscribe to Twitter and Facebook to get **latest update**:
 5. Sitemap submission result in Admin Panel
 
 == Changelog ==
+
+= 8.2.2 =
+* Bug Fixes
+* Fixed ReadMe Typo
+* DomainName Change
+* Author's Twitter link fixed
 
 = 8.2.1 =
 * Performance Improvement: Loading default WordPress JQuery instead of laoding from Plugin directory.

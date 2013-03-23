@@ -34,7 +34,7 @@
 
 </div>
 
-<a href="http://Crunchify.co/all-in-one-webmaster/" target="_blank">Feedback</a> | <a href="http://twitter.com/CrunchifyCo"
+<a href="http://Crunchify.co/all-in-one-webmaster/" target="_blank">Feedback</a> | <a href="http://twitter.com/Crunchify"
                                                                                     target="_blank">Twitter</a> | <a
         href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>
 

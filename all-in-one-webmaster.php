@@ -3,13 +3,13 @@
 Plugin Name: All in One Webmaster
 Plugin URI: http://Crunchify.co/all-in-one-webmaster/
 Description: Sitemap Submission option to Google, Bing. Options to add Google, Bing, Alexa, Facebook Insights, Facebook, SEO, Blogcatalog Webmaster Meta Tag. Options to add Google, Quantcast.com, GetClicky.com, Compete.com Analytics scripts for your blogs.
-Version: 8.2.1
+Version: 8.2.2
 Author: Crunchify
 Author URI: http://Crunchify.co
 */
 
 /*
-    Copyright (C) 2017-2013 Crunchify.co
+    Copyright (C) 2012-2013 Crunchify.co
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
