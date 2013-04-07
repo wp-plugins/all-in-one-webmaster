@@ -20,7 +20,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 [Twitter](http://twitter.com/Crunchify) |
 [Facebook](http://www.facebook.com/iCrunch) |
-[Feedback](http://Crunchify.co/all-in-one-webmaster/) |
+[Feedback](http://Crunchify.com/all-in-one-webmaster/) |
 [Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/all-in-one-webmaster/screenshots/)
 
 **Features**
@@ -73,10 +73,10 @@ Subscribe to Twitter and Facebook to get **latest update**:
 * No worries. You can add those service's HTML code into text area provided in admin panel. 
 
 = Have a question on Placed Analytics? =
-* Please visit <a href="http://crunchify.co/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank">Help Section</a>. 
+* Please visit <a href="http://Crunchify.com/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank">Help Section</a>. 
 
 = Got a Question? =
-* Please report your questions or bugs at Plugin <a href="http://crunchify.co/all-in-one-webmaster/" target="_blank">Homepage</a>.
+* Please report your questions or bugs at Plugin <a href="http://Crunchify.com/all-in-one-webmaster/" target="_blank">Homepage</a>.
 * NOTE: I've created this plugin as of my personal interest only. 
 
 == Screenshots ==
@@ -118,8 +118,8 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 = 8.0.0 = 
 * Placed Analytics Option Added.
-* Questions on Placed analytics? Visit <a href="http://crunchify.co/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank">here</a>.
-* Visit <a href="http://crunchify.co/all-in-one-webmaster/" target="_blank">Plugin Homepage</a> for detailed changelog.
+* Questions on Placed analytics? Visit <a href="http://Crunchify.com/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank">here</a>.
+* Visit <a href="http://Crunchify.com/all-in-one-webmaster/" target="_blank">Plugin Homepage</a> for detailed changelog.
 
 = 7.7.7 and Previous Change log =
 * Please visit plugin home page for detailed info.
