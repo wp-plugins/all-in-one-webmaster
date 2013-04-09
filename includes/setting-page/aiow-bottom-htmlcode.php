@@ -1,6 +1,6 @@
 <?php
 /**
- * @author Crunchify.co
+ * @author Crunchify.com
  * Plugin: All in One Webmaster
  */
 ?>
@@ -34,9 +34,9 @@
 
 </div>
 
-<a href="http://Crunchify.co/all-in-one-webmaster/" target="_blank">Feedback</a> | <a href="http://twitter.com/Crunchify"
+<a href="http://Crunchify.com/all-in-one-webmaster/" target="_blank">Feedback</a> | <a href="http://twitter.com/Crunchify"
                                                                                     target="_blank">Twitter</a> | <a
-        href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>
+        href="http://www.facebook.com/Crunchify" target="_blank">Facebook</a>
 
 <div class="submit">
     <input type="submit" name="info_update1" class="button-primary" value="<?php _e('Update options'); ?> &raquo;"/>
