@@ -3,12 +3,12 @@ Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips, 
 Requires at least: 3.2
-Tested up to: 3.6-alpha
-Stable tag: 8.2.2
+Tested up to: 3.6-Beta1
+Stable tag: 8.2.3
 
 Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc. Analytics option 4 Google, Placed, Quantcast, Clicky, Compete
 
-== Description ==
+== Description == 
 
 If you are a webmaster you probably heard of `Google Webmaster Tool`. Both Yahoo and Bing have their own versions called `Yahoo SiteExplorer` and `Bing Webmaster Central`. With them you can check how your site is indexed (`Webmaster Tool`), get detailed statistics (`Analytics Tool`), earn money (`Google AdSense`) and more. 
 
@@ -87,6 +87,9 @@ Subscribe to Twitter and Facebook to get **latest update**:
 5. Sitemap submission result in Admin Panel
 
 == Changelog ==
+
+= 8.2.3 =
+* Fixed few broken links
 
 = 8.2.2 =
 * Bug Fixes
