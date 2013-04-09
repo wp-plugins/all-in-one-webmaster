@@ -14,7 +14,7 @@ If you are a webmaster you probably heard of `Google Webmaster Tool`. Both Yahoo
 
 This is very simple plugin with out any complicated code. It adds your requested meta tags into header and java script code to footer of your blog. You are most welcome to advise on any improvement or bug. I created this plugin as of my personal interest only. 
 
-This plugin allows you to easily integrate them with your blog. It has option to add `Google, Bing, Alexa, Placed Analytics, Blog Catalog, Yahoo's` Webmaster and Analytics code (`meat tags`). `Single click sitemap submission` to `Google`, `Bing`, `Yahoo` and `Ask`. In addition to that it has option to add tracking code for Clicky, Quantcast, Compete.com, SiteMeter.com analytics!! Site-Verification-Option, Google XML sitemap submission. There are more to come in next releases. 
+This plugin allows you to easily integrate them with your blog. It has option to add `Google, Bing, Alexa, Placed Analytics, Blog Catalog, Yahoo's` Webmaster and Analytics code (`meat tags`). `Single click sitemap submission` to `Google` and `Bing`. In addition to that it has option to add tracking code for Clicky, Quantcast, Compete.com, SiteMeter.com analytics!! Site-Verification-Option, Google XML sitemap submission. There are more to come in next releases. 
 
 Subscribe to Twitter and Facebook to get **latest update**:
 
@@ -25,7 +25,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 **Features**
 
-* Sitemap Submission Option to Google, Bing, Yahoo and Ask.com
+* Sitemap Submission Option to Google & Bing
 * Manual HTML Header / Footer section
 * Now no need to install more plugins. You can just copy the code of any services in a textarea. No more things to do.
 * NEW: Updates the Asynchronous Tracking snippet to the latest version provided by Google
@@ -82,7 +82,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 == Screenshots ==
 1. All WebMaster Options
 2. All Analytics Options
-3. Header/Section Option and Sitemap submission option to Google, Bing, Yahoo and Ask.com
+3. Header/Section Option and Sitemap submission option to Google & Bing.
 4. Placed Analytics Options
 5. Sitemap submission result in Admin Panel
 
