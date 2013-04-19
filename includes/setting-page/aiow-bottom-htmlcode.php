@@ -39,6 +39,7 @@
         href="http://www.facebook.com/Crunchify" target="_blank">Facebook</a>
 
 <div class="submit">
+<input name="my_aiowz_update_setting" type="hidden" value="<?php echo wp_create_nonce('aiowz-update-setting'); ?>" />
     <input type="submit" name="info_update1" class="button-primary" value="<?php _e('Update options'); ?> &raquo;"/>
 
 </div>

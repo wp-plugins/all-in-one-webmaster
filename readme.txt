@@ -2,9 +2,9 @@
 Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips, 
-Requires at least: 3.2
+Requires at least: 3.1
 Tested up to: 3.6-Beta1
-Stable tag: 8.2.3
+Stable tag: 8.2.4
 
 Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc. Analytics option 4 Google, Placed, Quantcast, Clicky, Compete
 
@@ -87,6 +87,9 @@ Subscribe to Twitter and Facebook to get **latest update**:
 5. Sitemap submission result in Admin Panel
 
 == Changelog ==
+
+= 8.2.4 =
+* Fixed a cross scripting security issue (props Charlie Eriksen via Secunia SVCRP)
 
 = 8.2.3 =
 * Fixed few broken links

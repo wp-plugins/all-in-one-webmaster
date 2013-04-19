@@ -3,7 +3,7 @@
 Plugin Name: All in One Webmaster
 Plugin URI: http://Crunchify.com/all-in-one-webmaster/
 Description: Sitemap Submission option to Google, Bing. Options to add Google, Bing, Alexa, Facebook Insights, Facebook, SEO, Blogcatalog Webmaster Meta Tag. Options to add Google, Quantcast.com, GetClicky.com, Compete.com Analytics scripts for your blogs.
-Version: 8.2.3
+Version: 8.2.4
 Author: Crunchify
 Author URI: http://Crunchify.com
 */
@@ -246,8 +246,11 @@ function all_in_one_webmaster_options_page() {
 	$all_in_one_placed_mobile_only = $_POST['all_in_one_placed_mobile_only'];
 	$all_in_one_placed_tag_type = $_POST['all_in_one_placed_tag_type'];
 	
-	if (isset($_POST['info_update2']))
-	{
+	if (isset($_POST['info_update2'])) 
+	{	
+		if (!isset($_POST['my_aiowz_update_setting'])) die("Hmm .. looks like you didn't send any credentials.. No CSRF for you! ");
+		if (!wp_verify_nonce($_POST['my_aiowz_update_setting'],'aiowz-update-setting')) die("Hmm .. looks like you didn't send any credentials.. No CSRF for you! ");
+		
 		update_option('sitemap_URL', (string)$_POST['sitemap_URL']);
 		$sitemap_URL1 = get_option('sitemap_URL');
 
@@ -318,6 +321,9 @@ function all_in_one_webmaster_options_page() {
 	
 	if (isset($_POST['info_update1']))
 	{
+		if (!isset($_POST['my_aiowz_update_setting'])) die("Hmm .. looks like you didn't send any credentials.. No CSRF for you! ");
+		if (!wp_verify_nonce($_POST['my_aiowz_update_setting'],'aiowz-update-setting')) die("Hmm .. looks like you didn't send any credentials.. No CSRF for you! ");
+		
 		update_option('all_in_one_google_webmaster', (string)$_POST["all_in_one_google_webmaster"]);
 		update_option('all_in_one_alexa_webmaster', (string)$_POST["all_in_one_alexa_webmaster"]);
 		update_option('all_in_one_bcatalog_webmaster', (string)$_POST["all_in_one_bcatalog_webmaster"]);
