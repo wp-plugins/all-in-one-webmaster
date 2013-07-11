@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips, 
 Requires at least: 3.1
 Tested up to: 3.6-Beta3
-Stable tag: 8.2.5
+Stable tag: 8.2.6
 
 Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc. Analytics option 4 Google, Placed, Quantcast, Clicky, Compete
 
@@ -33,7 +33,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 **Analytics Option for**
 
-* Google Analytics
+* Google Analytics - Universal Analytics
 * Placed Analytics
 * Quantcast
 * GetClicky
@@ -87,6 +87,15 @@ Subscribe to Twitter and Facebook to get **latest update**:
 5. Sitemap submission result in Admin Panel
 
 == Changelog ==
+
+= 8.2.6 =
+* Google Analytics Script updated to "Universal Analytics". Enhancement Includes:
+* Custom Dimensions & metrics
+* Online/Offline data sync
+* Multi-platform tracking
+* Simplified configuration controls
+* Advanced advertisement tools
+* NOTE: Please revisit "Analytics Options" tab and enter newly introduced "Domain Name" field introduced in new Universal Analytics.
 
 = 8.2.5 =
 * Minor changes to Admin Panel. Getting ready for Premium version.

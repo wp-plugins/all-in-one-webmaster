@@ -3,7 +3,7 @@
 Plugin Name: All in One Webmaster
 Plugin URI: http://Crunchify.com/all-in-one-webmaster/
 Description: Sitemap Submission option to Google, Bing. Options to add Google, Bing, Alexa, Facebook Insights, Facebook, SEO, Blogcatalog Webmaster Meta Tag. Options to add Google, Quantcast.com, GetClicky.com, Compete.com Analytics scripts for your blogs.
-Version: 8.2.5
+Version: 8.2.6
 Author: Crunchify
 Author URI: http://Crunchify.com
 */
@@ -35,6 +35,7 @@ add_option('all_in_one_bcatalog_webmaster', '');
 add_option('all_in_one_fbinsights_webmaster', '');
 
 add_option('all_in_one_google_analytics', '');
+add_option('all_in_one_google_analytics_domain', '');
 add_option('sitemap_URL', '');
 add_option('all_in_one_clicky_analytics', '');
 add_option('all_in_one_compete_analytics', '');
@@ -60,6 +61,7 @@ function all_in_one_webmaster_head()
 
 	$bing_wm = get_option('all_in_one_bing_webmaster');
 	$google_an = get_option('all_in_one_google_analytics');
+	$google_an_domain = get_option('all_in_one_google_analytics_domain');
 	$quantcast_an = get_option('all_in_one_quantcast_analytics');
 	
 	$placed_an = get_option('all_in_one_placed_analytics');
@@ -104,19 +106,16 @@ function all_in_one_webmaster_head()
 
 	if (!($google_an == ""))
 	{
-		echo '<script type="text/javascript">'."\n";
-		echo 'var _gaq = _gaq || [];'."\n";
-		echo '_gaq.push([\'_setAccount\', \'' . $google_an . '\']);'."\n";
-		echo '_gaq.push([\'_trackPageview\']);'."\n";
-		echo '_gaq.push([\'_trackPageLoadTime\']);'."\n";
-		echo '(function() {'."\n";
-		echo 'var ga = document.createElement(\'script\'); ga.type = \'text/javascript\'; ga.async = true;'."\n";
-		echo 'ga.src = (\'https:\' == document.location.protocol ? \'https://ssl\' : \'http://www\') + \'.google-analytics.com/ga.js\';'."\n";
-		echo 'var s = document.getElementsByTagName(\'script\')[0]; s.parentNode.insertBefore(ga, s);'."\n";
-		echo ' })();'."\n";
+		echo '<script>'."\n";
+		echo '(function(i,s,o,g,r,a,m){i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){'."\n";
+		echo '  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),'."\n";
+		echo 'm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)'."\n";
+		echo '})(window,document,\'script\',\'//www.google-analytics.com/analytics.js\',\'ga\');'."\n";
+		echo 'ga(\'create\', \'' . $google_an . '\', \'' . $google_an_domain . '\');'."\n";
+		echo 'ga(\'send\', \'pageview\');'."\n";
 		echo '</script>'."\n";
 	}
-
+	
 	if (!($quantcast_an == ""))
 	{
 		echo '<script type="text/javascript">'."\n";
@@ -329,6 +328,7 @@ function all_in_one_webmaster_options_page() {
 		update_option('all_in_one_bcatalog_webmaster', (string)$_POST["all_in_one_bcatalog_webmaster"]);
 		update_option('all_in_one_bing_webmaster', (string)$_POST["all_in_one_bing_webmaster"]);
 		update_option('all_in_one_google_analytics', (string)$_POST['all_in_one_google_analytics']);
+		update_option('all_in_one_google_analytics_domain', (string)$_POST['all_in_one_google_analytics_domain']);
 		update_option('all_in_one_clicky_analytics', (string)$_POST['all_in_one_clicky_analytics']);
 		update_option('all_in_one_compete_analytics', (string)$_POST['all_in_one_compete_analytics']);
 		update_option('all_in_one_quantcast_analytics', (string)$_POST['all_in_one_quantcast_analytics']);
