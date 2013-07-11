@@ -66,7 +66,7 @@ function all_in_one_webmaster_head()
 	
 	$placed_an = get_option('all_in_one_placed_analytics');
 	$placed_mobile = get_option('all_in_one_placed_mobile_only');
-	$placed_tag = get_option('all_in_one_placed_tag_type');
+	$placed_tag = get_option('all_in_one_placed_tag_type'); 
 	
 	
 	$head_section = get_option('all_in_one_head_section');
