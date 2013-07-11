@@ -96,6 +96,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 * Simplified configuration controls
 * Advanced advertisement tools
 * NOTE: Please revisit "Analytics Options" tab and enter newly introduced "Domain Name" field introduced in new Universal Analytics.
+* Must read: http://crunchify.co/177hdKg 
 
 = 8.2.5 =
 * Minor changes to Admin Panel. Getting ready for Premium version.
