@@ -16,7 +16,7 @@ This is very simple plugin with out any complicated code. It adds your requested
 
 This plugin allows you to easily integrate them with your blog. It has option to add `Google, Bing, Alexa, Placed Analytics, Blog Catalog, Yahoo's` Webmaster and Analytics code (`meat tags`). `Single click sitemap submission` to `Google` and `Bing`. In addition to that it has option to add tracking code for Clicky, Quantcast, Compete.com, SiteMeter.com analytics!! Site-Verification-Option, Google XML sitemap submission. There are more to come in next releases. 
 
-Subscribe to Twitter and Facebook to get **latest update**: 
+Subscribe to Twitter and Facebook to get **latest update**:
 
 [Twitter](http://twitter.com/Crunchify) |
 [Facebook](http://www.facebook.com/Crunchify) |
@@ -95,8 +95,8 @@ Subscribe to Twitter and Facebook to get **latest update**:
 * Multi-platform tracking
 * Simplified configuration controls
 * Advanced advertisement tools
-* NOTE: Please revisit "Analytics Options" tab and enter newly introduced "Domain Name" field introduced in new Universal Analytics.
-* Must read: http://crunchify.co/177hdKg 
+* NOTE: Please revisit "Analytics Options" tab and enter newly introduced "Domain Name" field in new Universal Analytics.
+* Must read: http://crunchify.co/177hdKg  
 
 = 8.2.5 =
 * Minor changes to Admin Panel. Getting ready for Premium version.

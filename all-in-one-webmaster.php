@@ -9,7 +9,7 @@ Author URI: http://Crunchify.com
 */
 
 /*
-    Copyright (C) 2012-2013 Crunchify.com 
+    Copyright (C) 2012-2013 Crunchify.com
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -66,7 +66,7 @@ function all_in_one_webmaster_head()
 	
 	$placed_an = get_option('all_in_one_placed_analytics');
 	$placed_mobile = get_option('all_in_one_placed_mobile_only');
-	$placed_tag = get_option('all_in_one_placed_tag_type');
+	$placed_tag = get_option('all_in_one_placed_tag_type'); 
 	
 	
 	$head_section = get_option('all_in_one_head_section');
@@ -116,7 +116,7 @@ function all_in_one_webmaster_head()
 		echo '</script>'."\n";
 	}
 	
-	if (!($quantcast_an == ""))
+	if (!($quantcast_an == "")) 
 	{
 		echo '<script type="text/javascript">'."\n";
 		echo '_qoptions={qacct:"' . $quantcast_an . '"};'."\n";
