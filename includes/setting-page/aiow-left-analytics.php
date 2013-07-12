@@ -12,7 +12,7 @@
         <table class="form-table">
 
             <tr valign="top" class="alternate">
-                <th scope="row" style="width:32%;"><label>1) <b>Google</b> Analytics</label></th>
+                <th scope="row" style="width:32%;"><label>1) <b>Google</b> Universal Analytics</label></th>
                 <td>
                     <input id="styled" name="all_in_one_google_analytics" type="text" placeholder="Tracking ID" size="20"
                            value="<?php echo get_option('all_in_one_google_analytics'); ?>"/>

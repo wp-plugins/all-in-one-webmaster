@@ -116,7 +116,7 @@ function all_in_one_webmaster_head()
 		echo '</script>'."\n";
 	}
 	
-	if (!($quantcast_an == ""))
+	if (!($quantcast_an == "")) 
 	{
 		echo '<script type="text/javascript">'."\n";
 		echo '_qoptions={qacct:"' . $quantcast_an . '"};'."\n";
