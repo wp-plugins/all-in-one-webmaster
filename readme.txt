@@ -26,7 +26,6 @@ Subscribe to Twitter and Facebook to get **latest update**:
 **Features**
 
 * Sitemap Submission Option to Google & Bing
-* Manual HTML Header / Footer section
 * Now no need to install more plugins. You can just copy the code of any services in a textarea. No more things to do.
 * NEW: Updates the Asynchronous Tracking snippet to the latest version provided by Google
 * Warning/Success/Failure messages on sitemap submission
