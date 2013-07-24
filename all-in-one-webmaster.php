@@ -3,7 +3,7 @@
 Plugin Name: All in One Webmaster
 Plugin URI: http://Crunchify.com/all-in-one-webmaster/
 Description: Sitemap Submission option to Google, Bing. Options to add Google, Bing, Alexa, Facebook Insights, Facebook, SEO, Blogcatalog Webmaster Meta Tag. Options to add Google, Quantcast.com, GetClicky.com, Compete.com Analytics scripts for your blogs.
-Version: 8.2.6
+Version: 8.2.7
 Author: Crunchify
 Author URI: http://Crunchify.com
 */
@@ -45,10 +45,6 @@ add_option('all_in_one_placed_analytics', '');
 add_option('all_in_one_placed_mobile_only', '-1');
 add_option('all_in_one_placed_tag_type', '-1');
 
-
-add_option('all_in_one_head_section', '');
-add_option('all_in_one_footer_section', '');
-
 add_option('all_in_one_banner', '-1');
 
 
@@ -67,15 +63,8 @@ function all_in_one_webmaster_head()
 	$placed_an = get_option('all_in_one_placed_analytics');
 	$placed_mobile = get_option('all_in_one_placed_mobile_only');
 	$placed_tag = get_option('all_in_one_placed_tag_type'); 
-	
-	
-	$head_section = get_option('all_in_one_head_section');
 
 	echo "<!-- All in One Webmaster plugin by Crunchify.com -->";
-	if (!($head_section == ""))
-	{
-			echo $head_section . "\n";
-	}
 	if (!($google_wm == ""))
 	{
 		$google_wm_meta = '<meta name="google-site-verification" content="' . $google_wm . '" /> ';
@@ -174,13 +163,7 @@ function all_in_one_webmaster_footer()
 	$clicky_an = get_option('all_in_one_clicky_analytics');
 	$compete_an = get_option('all_in_one_compete_analytics');
 
-	$footer_section = get_option('all_in_one_footer_section');
 	$sitemeter_an = get_option('all_in_one_sitemeter_analytics');
-
-	if (!($footer_section == ""))
-	{
-		echo $footer_section . "\n";
-	}
 
 	if (!($clicky_an == ""))
 	{
@@ -335,8 +318,6 @@ function all_in_one_webmaster_options_page() {
 		update_option('all_in_one_fbinsights_webmaster', (string)$_POST["all_in_one_fbinsights_webmaster"]);
 		update_option('all_in_one_sitemeter_analytics', stripslashes_deep((string)$_POST['all_in_one_sitemeter_analytics']));
 		update_option('all_in_one_placed_analytics', stripslashes_deep((string)$_POST['all_in_one_placed_analytics']));
-		update_option('all_in_one_head_section', stripslashes_deep((string)$_POST['all_in_one_head_section']));
-		update_option('all_in_one_footer_section', stripslashes_deep((string)$_POST['all_in_one_footer_section']));
 		update_option('all_in_one_banner', ($_POST['all_in_one_banner']=='1') ? '1':'-1' );
 
 	update_option('all_in_one_placed_mobile_only', ($_POST['all_in_one_placed_mobile_only']=='1') ? '1':'-1' );

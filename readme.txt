@@ -3,8 +3,8 @@ Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips, 
 Requires at least: 3.1
-Tested up to: 3.6-Beta3
-Stable tag: 8.2.6
+Tested up to: 3.6-RC1
+Stable tag: 8.2.7
 
 Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc. Analytics option 4 Google, Placed, Quantcast, Clicky, Compete
 
@@ -82,11 +82,15 @@ Subscribe to Twitter and Facebook to get **latest update**:
 == Screenshots ==
 1. All WebMaster Options
 2. All Analytics Options
-3. Header/Section Option and Sitemap submission option to Google & Bing.
+3. Sitemap submission option to Google & Bing.
 4. Placed Analytics Options
 5. Sitemap submission result in Admin Panel
 
 == Changelog ==
+
+= 8.2.7 =
+* Code Cleanup. Removed unused Header/Footer Section.
+* Getting ready for Premium Version.
 
 = 8.2.6 =
 * Google Analytics Script updated to "Universal Analytics". Enhancement Includes:
@@ -97,48 +101,3 @@ Subscribe to Twitter and Facebook to get **latest update**:
 * Advanced advertisement tools
 * NOTE: Please revisit "Analytics Options" tab and enter newly introduced "Domain Name" field in new Universal Analytics.
 * Must read: http://crunchify.co/177hdKg  
-
-= 8.2.5 =
-* Minor changes to Admin Panel. Getting ready for Premium version.
-
-= 8.2.4 =
-* Fixed a cross scripting security issue (props Charlie Eriksen via Secunia SVCRP)
-
-= 8.2.3 =
-* Fixed few broken links
-
-= 8.2.2 =
-* Bug Fixes
-* Fixed ReadMe Typo
-* DomainName Change
-* Author's Twitter link fixed
-
-= 8.2.1 =
-* Performance Improvement: Loading default WordPress JQuery instead of laoding from Plugin directory.
-* JQuery.js and JQuery-ui.js files removed from plugin folder (Unnecessary files).
-* Fixed some typos.
-* Bug fixes.
-* Quick Tips will now show on top instead of right side.
-
-= 8.2 =
-* Major code upgrade.
-* Admin Panel Options now in Tabular Form.
-* Tab1: All WebMaster Options except Placed Analytics.
-* Tab2: Analytics Options.
-* Tab3: Placed Analytics.
-* Admin Panel ToopTip added.
-* Better Performance.
-* Many more Bug fixes.
-* Make sure your settings are uptodate after plugin update.
-
-= 8.1 =
-* Minor bug fix
-* Plugin Homepage link updated
-
-= 8.0.0 = 
-* Placed Analytics Option Added.
-* Questions on Placed analytics? Visit <a href="http://Crunchify.com/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank">here</a>.
-* Visit <a href="http://Crunchify.com/all-in-one-webmaster/" target="_blank">Plugin Homepage</a> for detailed changelog.
-
-= 7.7.7 and Previous Change log =
-* Please visit plugin home page for detailed info.
