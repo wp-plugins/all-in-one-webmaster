@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips, 
 Requires at least: 3.1
 Tested up to: 3.6-RC1
-Stable tag: 8.2.7
+Stable tag: 8.2.8
 
 Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc. Analytics option 4 Google, Placed, Quantcast, Clicky, Compete
 
@@ -88,7 +88,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 == Changelog ==
 
 = 8.2.8 =
-* Updated Compete Analytics Code. Thanks to www.compete.com team for code snippet.
+* Updated Compete Analytics Code. Thanks to www.compete.com team for updated code snippet.
 
 = 8.2.7 =
 * Code Cleanup. Removed unused Header/Footer Section.
