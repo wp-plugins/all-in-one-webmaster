@@ -50,11 +50,11 @@
                     <input id="styled" name="all_in_one_compete_analytics" type="text" size="55"
                            value="<?php echo get_option('all_in_one_compete_analytics'); ?>"/>
                     &nbsp;<?=$aiow_compete_ana?>
-                    <br/>(__compete_code = '<font
-                        color="red"><code>07a543238f9kdwjga0d280bd70534990a</code></font>')<br/>
+                    <br/>(src="//c.compete.com/bootstrap/s/<font
+                        color="red"><code>4b6705ef8ded7e9cb0067318dde11c3e/compete-com</code></font>/bootstrap.js")<br/>
                 </td>
             </tr>
-
+            
             <tr valign="top" class="alternate">
                 <th scope="row" style="width:32%;"><label>5) <b>SiteMeter</b> Analytics/Tracking</label></th>
                 <td>

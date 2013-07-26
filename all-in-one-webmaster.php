@@ -171,14 +171,18 @@ function all_in_one_webmaster_footer()
 		echo '<script type="text/javascript">clicky.init('.$clicky_an.');</script>'."\n";
 	}
 
-	if (!($compete_an == ""))
-	{
-		echo '<script type="text/javascript">'."\n";
-		echo '__compete_code = \'' . $compete_an . '\';'."\n";
-		echo '(function () { var s = document.createElement(\'script\'),d = document.getElementsByTagName(\'head\')[0] || document.getElementsByTagName(\'body\')[0],t = \'https:\' == document.location.protocol ? \'https://c.compete.com/bootstrap/\' : \'http://c.compete.com/bootstrap/\'; s.src = t + __compete_code + \'/bootstrap.js\'; s.type = \'text/javascript\'; s.async = \'async\'; if (d) { d.appendChild(s); }}());'."\n";
-		echo '</script>'."\n";
-	}
-
+    if (!($compete_an == ""))
+    {
+            list ($compete_code, $compete_token) = explode("/", $compete_an);
+            $compete_stub = str_split($compete_code, 6);
+            echo '<!-- Compete CrossPoint Tag for compete.com -->'."\n";
+            echo '<script type="text/javascript">'."\n";
+            echo '__compete_code = \'' . $compete_code . '\';'."\n";
+            echo '/* Set control variables below this line. */'."\n";
+            echo '</script>'."\n";
+            echo '<script type="text/javascript" src="//c.compete.com/bootstrap/s/' . $compete_code . '/' . $compete_token . '/bootstrap.js"></script>'."\n";
+    } 
+	
 	if (!($sitemeter_an == ""))
 	{
 		echo '<script type="text/javascript" src="'.$sitemeter_an.'"></script>'."\n";

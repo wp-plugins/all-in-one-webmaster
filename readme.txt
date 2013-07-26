@@ -87,6 +87,9 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 == Changelog ==
 
+= 8.2.8 =
+* Updated Compete Analytics Code. Thanks to www.compete.com team for updated code snippet.
+
 = 8.2.7 =
 * Code Cleanup. Removed unused Header/Footer Section.
 * Getting ready for Premium Version.
