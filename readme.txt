@@ -12,6 +12,8 @@ Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc
 
 If you are a webmaster you probably heard of `Google Webmaster Tool`. Both Yahoo and Bing have their own versions called `Yahoo SiteExplorer` and `Bing Webmaster Central`. With them you can check how your site is indexed (`Webmaster Tool`), get detailed statistics (`Analytics Tool`), earn money (`Google AdSense`) and more. 
 
+**[Upgrade to Premium Version](https://pro.crunchify.com/all-in-one-webmaster-premium/)**
+
 This is very simple plugin with out any complicated code. It adds your requested meta tags into header and java script code to footer of your blog. You are most welcome to advise on any improvement or bug. I created this plugin as of my personal interest only. 
 
 This plugin allows you to easily integrate them with your blog. It has option to add `Google, Bing, Alexa, Placed Analytics, Blog Catalog, Yahoo's` Webmaster and Analytics code (`meat tags`). `Single click sitemap submission` to `Google` and `Bing`. In addition to that it has option to add tracking code for Clicky, Quantcast, Compete.com, SiteMeter.com analytics!! Site-Verification-Option, Google XML sitemap submission. There are more to come in next releases. 
@@ -23,7 +25,17 @@ Subscribe to Twitter and Facebook to get **latest update**:
 [Feedback](http://Crunchify.com/all-in-one-webmaster/) |
 [Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/all-in-one-webmaster/screenshots/)
 
-**Features**
+**Premium Version Features**
+
+* Brand new dedicated plugin menu
+* Facebook page insights, admin insights, app insights options
+* Google Authorship Options
+* Header / Footer Section
+* Misc Options - Add Global Site Favicon Option
+* There are lot more to come.. this is just an initial release of Premium Version
+* Just one time purchase and life time upgrade option. <a href="https://pro.crunchify.com/all-in-one-webmaster-premium/" target="_blank">Upgrade to Premium</a>. 
+
+**Lite Version Features**
 
 * Sitemap Submission Option to Google & Bing
 * Now no need to install more plugins. You can just copy the code of any services in a textarea. No more things to do.
@@ -55,6 +67,9 @@ Subscribe to Twitter and Facebook to get **latest update**:
 5. Done and Ready.
 
 == Frequently Asked Questions ==
+
+= How can I upgrade to Premium Version? =
+* Just one time purchase and life time upgrade option. <a href="https://pro.crunchify.com/all-in-one-webmaster-premium/" target="_blank">Upgrade to Premium</a>. 
 
 = Where to find Google, Bing, Yahoo webmaster META tag? =
 * Visit links provided in `Settings -> All in One Webmaster` to get your META tag. This is an easiest way to authenticate your sites.
