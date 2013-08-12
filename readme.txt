@@ -24,8 +24,8 @@ This is very Simple but Powerful All in One Webmaster Tool for All WordPress Use
 * Google Authorship Options
 * Fast way to generate Google XML Sitemap - sitemap.xml (New in v10.1)
 * Google Tag Manager Integration (New in v10.1)
-* Header / Footer Section
-* Misc Options – Add Global Site Favicon Option
+* Header / Footer Section 
+* Misc Options - Add Global Site Favicon Option
 * There are lot more to come.. this is just an initial release of Premium Version
 * Just one time purchase and life time upgrade option.
 * [Feedback](https://pro.crunchify.com/all-in-one-webmaster-premium/)
