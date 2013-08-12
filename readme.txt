@@ -1,7 +1,7 @@
 === All in One Webmaster ===
 Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
-Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips, 
+Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, Google XML Sitemap, XML Sitemap, XML Sitemap Submission, Google Tag Manager, Google Authorship, Premium
 Requires at least: 3.3
 Tested up to: 3.6
 Stable tag: 8.2.9
@@ -11,6 +11,7 @@ Very Simple but Powerful All in One Webmaster Tool for All WordPress Users inclu
 == Description ==
 
 If you already know about the word SEO then you probably know about such webmasters tools like Google, Bing, and Yahoo. These tools help us to rank well in search engines just by getting a copy of our blog sitemap there in webmaster central. Doing this, the robots of these biggest search engines sit in our blog database and whenever a new is published there in our blogs these robots knock the search engines about the new posts and get our posts indexed.
+
 **[Upgrade to Premium Version](https://pro.crunchify.com/all-in-one-webmaster-premium/)**
 
 This is very Simple but Powerful All in One Webmaster Tool for All WordPress Users. It adds your requested meta tags into header and java script code to footer of your blog. This plugin allows you to easily integrate them with your blog. It has option to add `Google, Bing, Alexa, Placed Analytics, Blog Catalog, Yahoo's` Webmaster and Analytics code (`meat tags`). `Single click sitemap submission` to `Google` and `Bing`. In addition to that it has option to add tracking code for Clicky, Quantcast, Compete.com, SiteMeter.com analytics!! Site-Verification-Option, Google XML sitemap submission. There are more to come in next releases. 
