@@ -2,38 +2,38 @@
 Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips, 
-Requires at least: 3.1
-Tested up to: 3.6-RC1
-Stable tag: 8.2.8
+Requires at least: 3.3
+Tested up to: 3.6
+Stable tag: 8.2.9
 
-Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc. Analytics option 4 Google, Placed, Quantcast, Clicky, Compete
+Very Simple but Powerful All in One Webmaster Tool for All WordPress Users including Sitemap Submission.
 
 == Description ==
 
-If you are a webmaster you probably heard of `Google Webmaster Tool`. Both Yahoo and Bing have their own versions called `Yahoo SiteExplorer` and `Bing Webmaster Central`. With them you can check how your site is indexed (`Webmaster Tool`), get detailed statistics (`Analytics Tool`), earn money (`Google AdSense`) and more. 
-
+If you already know about the word SEO then you probably know about such webmasters tools like Google, Bing, and Yahoo. These tools help us to rank well in search engines just by getting a copy of our blog sitemap there in webmaster central. Doing this, the robots of these biggest search engines sit in our blog database and whenever a new is published there in our blogs these robots knock the search engines about the new posts and get our posts indexed.
 **[Upgrade to Premium Version](https://pro.crunchify.com/all-in-one-webmaster-premium/)**
 
-This is very simple plugin with out any complicated code. It adds your requested meta tags into header and java script code to footer of your blog. You are most welcome to advise on any improvement or bug. I created this plugin as of my personal interest only. 
-
-This plugin allows you to easily integrate them with your blog. It has option to add `Google, Bing, Alexa, Placed Analytics, Blog Catalog, Yahoo's` Webmaster and Analytics code (`meat tags`). `Single click sitemap submission` to `Google` and `Bing`. In addition to that it has option to add tracking code for Clicky, Quantcast, Compete.com, SiteMeter.com analytics!! Site-Verification-Option, Google XML sitemap submission. There are more to come in next releases. 
-
-Subscribe to Twitter and Facebook to get **latest update**: 
-
-[Twitter](http://twitter.com/Crunchify) |
-[Facebook](http://www.facebook.com/Crunchify) |
-[Feedback](http://Crunchify.com/all-in-one-webmaster/) |
-[Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/all-in-one-webmaster/screenshots/)
+This is very Simple but Powerful All in One Webmaster Tool for All WordPress Users. It adds your requested meta tags into header and java script code to footer of your blog. This plugin allows you to easily integrate them with your blog. It has option to add `Google, Bing, Alexa, Placed Analytics, Blog Catalog, Yahoo's` Webmaster and Analytics code (`meat tags`). `Single click sitemap submission` to `Google` and `Bing`. In addition to that it has option to add tracking code for Clicky, Quantcast, Compete.com, SiteMeter.com analytics!! Site-Verification-Option, Google XML sitemap submission. There are more to come in next releases. 
 
 **Premium Version Features**
 
 * Brand new dedicated plugin menu
+* No Advertisement
 * Facebook page insights, admin insights, app insights options
 * Google Authorship Options
+* Fast way to generate Google XML Sitemap - sitemap.xml (New in v10.1)
+* Google Tag Manager Integration (New in v10.1)
 * Header / Footer Section
-* Misc Options - Add Global Site Favicon Option
+* Misc Options – Add Global Site Favicon Option
 * There are lot more to come.. this is just an initial release of Premium Version
-* Just one time purchase and life time upgrade option. <a href="https://pro.crunchify.com/all-in-one-webmaster-premium/" target="_blank">Upgrade to Premium</a>. 
+* Just one time purchase and life time upgrade option.
+* [Feedback](https://pro.crunchify.com/all-in-one-webmaster-premium/)
+
+Subscribe to Twitter and Facebook to get **latest update**: 
+
+[Twitter](http://twitter.com/Crunchify) | 
+[Facebook](http://www.facebook.com/Crunchify) | 
+[Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/all-in-one-webmaster/screenshots/)
 
 **Lite Version Features**
 
@@ -41,6 +41,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 * Now no need to install more plugins. You can just copy the code of any services in a textarea. No more things to do.
 * NEW: Updates the Asynchronous Tracking snippet to the latest version provided by Google
 * Warning/Success/Failure messages on sitemap submission
+* [Feedback](http://crunchify.com/all-in-one-webmaster/)
 
 **Analytics Option for**
 
@@ -53,11 +54,12 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 **Webmaster Option for**
 
-1. Google
-2. Bing
+1. Google Webmaster
+2. Bing Webmaster
 3. Alexa Ranks (new)
 4. BlogCatalog (new)
 6. Facebook Insights
+7. Google Tag manager 
 
 == Installation ==
 1. Unpack the `download-package`.
@@ -101,6 +103,9 @@ Subscribe to Twitter and Facebook to get **latest update**:
 5. Sitemap submission result in Admin Panel
 
 == Changelog ==
+
+= 8.2.9 =
+* WordPress 3.6 compatibility
 
 = 8.2.8 =
 * Updated Compete Analytics Code. Thanks to www.compete.com team for updated code snippet.
