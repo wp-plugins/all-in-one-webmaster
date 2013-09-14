@@ -41,9 +41,6 @@ add_option('all_in_one_clicky_analytics', '');
 add_option('all_in_one_compete_analytics', '');
 add_option('all_in_one_quantcast_analytics', '');
 add_option('all_in_one_sitemeter_analytics', '');
-add_option('all_in_one_placed_analytics', '');
-add_option('all_in_one_placed_mobile_only', '-1');
-add_option('all_in_one_placed_tag_type', '-1');
 
 add_option('all_in_one_banner', '-1');
 
@@ -60,10 +57,6 @@ function all_in_one_webmaster_head()
 	$google_an_domain = get_option('all_in_one_google_analytics_domain');
 	$quantcast_an = get_option('all_in_one_quantcast_analytics');
 	
-	$placed_an = get_option('all_in_one_placed_analytics');
-	$placed_mobile = get_option('all_in_one_placed_mobile_only');
-	$placed_tag = get_option('all_in_one_placed_tag_type'); 
-
 	echo "<!-- All in One Webmaster plugin by Crunchify.com -->";
 	if (!($google_wm == ""))
 	{
@@ -112,47 +105,7 @@ function all_in_one_webmaster_head()
 		echo '</script>'."\n";
 		echo '<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>'."\n";
 	}
-	
-	$placed_mobile_value = "";
-	$placed_tag_value = "";
-
-	if ($placed_mobile == -1)
-	{
-		$placed_mobile_value = "t";
-	}else
-	{
-		$placed_mobile_value = "f";
-	} 
-
-	if ($placed_tag == -1)
-	{
-		$placed_tag_value = "placed_agent_placed";
-	}else
-	{
-		$placed_tag_value = "placed_agent";
-	} 
-	
-	if (!($placed_an == ""))
-	{
-		echo '<script type="text/javascript">'."\n";
-		echo 'var _swApiKey = _swApiKey || "";'."\n";
-		echo 'var _swEvents = _swEvents || [];'."\n";
-		echo 'var _swMobileOnly = _swMobileOnly || "";'."\n";
-		echo '(function() {'."\n";
-		echo 'var elem = document.createElement(\'script\');'."\n";
-		echo 'elem.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//d1uiiw95yqfkwo.cloudfront.net/'.$placed_tag_value.'.js";'."\n";
-		echo 'elem.async = true;'."\n";
-		echo 'elem.type = "text/javascript";'."\n";
-		echo 'var scpt = document.getElementsByTagName(\'script\')[0];'."\n";
-		echo 'scpt.parentNode.insertBefore(elem, scpt);'."\n";
-		echo '})();'."\n";
 		
-		echo '_swApiKey = "' . $placed_an . '"'."\n";
-		echo '_swMobileOnly = "'.$placed_mobile_value.'";'."\n";
-		echo '_swEvents.push([\'_PageView\']);'."\n";
-		echo '</script>'."\n";
-	}
-	
 	echo "<!-- /All in One Webmaster plugin -->";
 
 }
@@ -228,9 +181,6 @@ function all_in_one_webmaster_sitemap_submit($sitemap_URL1,$search_engine,$OKmes
 
 function all_in_one_webmaster_options_page() {
 
-
-	$all_in_one_placed_mobile_only = $_POST['all_in_one_placed_mobile_only'];
-	$all_in_one_placed_tag_type = $_POST['all_in_one_placed_tag_type'];
 	
 	if (isset($_POST['info_update2'])) 
 	{	
@@ -321,19 +271,12 @@ function all_in_one_webmaster_options_page() {
 		update_option('all_in_one_quantcast_analytics', (string)$_POST['all_in_one_quantcast_analytics']);
 		update_option('all_in_one_fbinsights_webmaster', (string)$_POST["all_in_one_fbinsights_webmaster"]);
 		update_option('all_in_one_sitemeter_analytics', stripslashes_deep((string)$_POST['all_in_one_sitemeter_analytics']));
-		update_option('all_in_one_placed_analytics', stripslashes_deep((string)$_POST['all_in_one_placed_analytics']));
 		update_option('all_in_one_banner', ($_POST['all_in_one_banner']=='1') ? '1':'-1' );
-
-	update_option('all_in_one_placed_mobile_only', ($_POST['all_in_one_placed_mobile_only']=='1') ? '1':'-1' );
-   	update_option('all_in_one_placed_tag_type', ($_POST['all_in_one_placed_tag_type']=='1') ? '1':'-1' );
 		
 		echo '<div id="message" class="updated fade"><p><strong>Settings updated.</strong></p></div>';
 		echo '</strong>';
 
 	}else{
-	$all_in_one_placed_mobile_only = $_POST['all_in_one_placed_mobile_only'];
-	$all_in_one_placed_tag_type = $_POST['all_in_one_placed_tag_type'];
-	
 	}
 	
 	
@@ -360,8 +303,6 @@ function all_in_one_webmaster_options_page() {
     $aiow_compete_ana = '<img border="0" id="aioweast9" value="Tip" title="Visit http://www.compete.com/" to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
 
     $aiow_sitemeter_ana = '<img border="0" id="aioweast10" value="Tip" title="Visit http://sitemeter.com" to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
-
-    $aiow_placed_ana = '<img border="0" id="aioweast11" value="Tip" title="Visit http://www.placed.com" to get detailed info." src="' . $icon_url . '/wp-content/plugins/all-in-one-webmaster/images/tip.png" /> ';
 
 	?>
 	

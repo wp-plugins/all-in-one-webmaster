@@ -1,10 +1,10 @@
 === All in One Webmaster ===
 Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
-Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Placed Analytics, Alexa, Blog Central, Placed, Quantcast, Facebook Insights, Search Engine Optimization, Google XML Sitemap, XML Sitemap, XML Sitemap Submission, Google Tag Manager, Google Authorship, Premium
+Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Alexa, Blog Central, Quantcast, Facebook Insights, Search Engine Optimization, Google XML Sitemap, XML Sitemap, XML Sitemap Submission, Google Tag Manager, Google Authorship, Premium
 Requires at least: 3.3
-Tested up to: 3.6
-Stable tag: 8.2.9
+Tested up to: 3.6.1
+Stable tag: 8.3.0
 
 Very Simple but Powerful All in One Webmaster Tool for All WordPress Users including Sitemap Submission.
 
@@ -14,7 +14,7 @@ If you already know about the word SEO then you probably know about such webmast
 
 **[Upgrade to Premium Version](https://pro.crunchify.com/all-in-one-webmaster-premium/)**
 
-This is very Simple but Powerful All in One Webmaster Tool for All WordPress Users. It adds your requested meta tags into header and java script code to footer of your blog. This plugin allows you to easily integrate them with your blog. It has option to add `Google, Bing, Alexa, Placed Analytics, Blog Catalog, Yahoo's` Webmaster and Analytics code (`meat tags`). `Single click sitemap submission` to `Google` and `Bing`. In addition to that it has option to add tracking code for Clicky, Quantcast, Compete.com, SiteMeter.com analytics!! Site-Verification-Option, Google XML sitemap submission. There are more to come in next releases. 
+This is very Simple but Powerful All in One Webmaster Tool for All WordPress Users. It adds your requested meta tags into header and java script code to footer of your blog. This plugin allows you to easily integrate them with your blog. It has option to add `Google, Bing, Alexa, Blog Catalog, Yahoo's` Webmaster and Analytics code (`meat tags`). `Single click sitemap submission` to `Google` and `Bing`. In addition to that it has option to add tracking code for Clicky, Quantcast, Compete.com, SiteMeter.com analytics!! Site-Verification-Option, Google XML sitemap submission. There are more to come in next releases. 
 
 **Premium Version Features**
 
@@ -47,7 +47,6 @@ Subscribe to Twitter and Facebook to get **latest update**:
 **Analytics Option for**
 
 * Google Analytics - Universal Analytics
-* Placed Analytics
 * Quantcast
 * GetClicky
 * Compete.com
@@ -89,9 +88,6 @@ Subscribe to Twitter and Facebook to get **latest update**:
 = How can I add more service meta tags which are not listed here? =
 * No worries. You can add those service's HTML code into text area provided in admin panel. 
 
-= Have a question on Placed Analytics? =
-* Please visit <a href="http://Crunchify.com/placed-analytics-added-to-all-in-one-webmaster-wordpress-plugin/" target="_blank">Help Section</a>. 
-
 = Got a Question? =
 * Please report your questions or bugs at Plugin <a href="http://Crunchify.com/all-in-one-webmaster/" target="_blank">Homepage</a>.
 * NOTE: I've created this plugin as of my personal interest only. 
@@ -99,11 +95,14 @@ Subscribe to Twitter and Facebook to get **latest update**:
 == Screenshots ==
 1. All WebMaster Options
 2. All Analytics Options
-3. Sitemap submission option to Google & Bing.
-4. Placed Analytics Options
-5. Sitemap submission result in Admin Panel
+3. Sitemap submission option to Google & Bing
+4. Sitemap submission result in Admin Panel
 
 == Changelog ==
+
+= 8.3.0 =
+* Compatibility with WordPress 3.1
+* Placed.com company has decided to decommission the Placed Analytics product for strategic business reasons, hence removing it from plugin too.
 
 = 8.2.9 =
 * WordPress 3.6 compatibility

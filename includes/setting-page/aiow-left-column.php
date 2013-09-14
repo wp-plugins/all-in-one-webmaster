@@ -9,7 +9,6 @@
 	<ul>
 		<li><a href="#aiowtabs-1">Webmaster Options</a><?=$new_icon?></li>
 		<li><a href="#aiowtabs-2">Analytics Options</a></li>
-		<li><a href="#aiowtabs-3">Placed Analytics Options</a></li>
 	</ul>
 
 	<div id="aiowtabs-1">
@@ -24,11 +23,6 @@
 								?>
     </div>
 
-	<div id="aiowtabs-3">
-        <?php
-								require_once 'aiow-left-placed.php';
-								?>
-    </div>
 </div>
 <br>
 
