@@ -73,7 +73,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 = How can I upgrade to Premium Version? =
 * Just one time purchase and life time upgrade option. <a href="https://pro.crunchify.com/all-in-one-webmaster-premium/" target="_blank">Upgrade to Premium</a>. 
 
-= How do I find respective META-tags? 
+= How do I find respective META-tags? =
 * Visit these tutorials for: <a href="http://crunchify.com/how-to-find-google-webmaster-meta-tag-value-for-all-in-one-webmaster-premium/">Google Webmaster Meta Tag</a>, <a href="http://crunchify.com/how-to-find-bing-webmaster-metatag-value-to-verify-ownership-of-your-site/">Bing Webmaster Meta Tag</a>, <a href="http://crunchify.com/how-to-find-alexa-rank-meta-tag-value-for-all-in-one-webmaster-premium/">Alexa Rank Meta Tag</a>.
 
 = Where should I put Google, Bing, Yahoo Webmaster, etc META-tags? =
