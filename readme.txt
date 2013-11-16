@@ -2,9 +2,9 @@
 Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Alexa, Blog Central, Quantcast, Facebook Insights, Search Engine Optimization, Google XML Sitemap, XML Sitemap, XML Sitemap Submission, Google Tag Manager, Google Authorship, Premium
-Requires at least: 3.3
-Tested up to: 3.6.1
-Stable tag: 8.3.0
+Requires at least: 3.5
+Tested up to: 3.7.1
+Stable tag: 8.3.1
 
 Very Simple but Powerful All in One Webmaster Tool for All WordPress Users including Sitemap Submission.
 
@@ -73,7 +73,10 @@ Subscribe to Twitter and Facebook to get **latest update**:
 = How can I upgrade to Premium Version? =
 * Just one time purchase and life time upgrade option. <a href="https://pro.crunchify.com/all-in-one-webmaster-premium/" target="_blank">Upgrade to Premium</a>. 
 
-= Where to find Google, Bing, Yahoo webmaster META tag? =
+= How do I find respective META-tags? 
+* Visit these tutorials for: <a href="http://crunchify.com/how-to-find-google-webmaster-meta-tag-value-for-all-in-one-webmaster-premium/">Google Webmaster Meta Tag</a>, <a href="http://crunchify.com/how-to-find-bing-webmaster-metatag-value-to-verify-ownership-of-your-site/">Bing Webmaster Meta Tag</a>, <a href="http://crunchify.com/how-to-find-alexa-rank-meta-tag-value-for-all-in-one-webmaster-premium/">Alexa Rank Meta Tag</a>.
+
+= Where should I put Google, Bing, Yahoo Webmaster, etc META-tags? =
 * Visit links provided in `Settings -> All in One Webmaster` to get your META tag. This is an easiest way to authenticate your sites.
 
 = Google Analytics Account ID =
@@ -99,6 +102,10 @@ Subscribe to Twitter and Facebook to get **latest update**:
 4. Sitemap submission result in Admin Panel
 
 == Changelog ==
+
+= 8.3.1 =
+* Compatibility with WordPress 3.7.1.
+* Bug Fixes
 
 = 8.3.0 =
 * Compatibility with WordPress 3.1
