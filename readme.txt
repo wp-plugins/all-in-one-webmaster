@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Alexa, Blog Central, Quantcast, Facebook Insights, Search Engine Optimization, Google XML Sitemap, XML Sitemap, XML Sitemap Submission, Google Tag Manager, Google Authorship, Premium
 Requires at least: 3.5
 Tested up to: 3.7.1
-Stable tag: 8.3.1
+Stable tag: 8.3.1 
 
 Very Simple but Powerful All in One Webmaster Tool for All WordPress Users including Sitemap Submission.
 
