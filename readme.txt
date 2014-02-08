@@ -55,7 +55,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 1. Unpack the `download-package`.
 2. Upload the file to the `/wp-content/plugins/` directory.
 3. Activate the plugin through the `Plugins` menu in WordPress.
-4. Configure the options under Admin Panel `Settings -> All in one Webmaster`.
+4. Configure the options under Admin Panel `AIO Webmaster -> List of all Options
 5. Done and Ready.
 
 == Frequently Asked Questions ==
