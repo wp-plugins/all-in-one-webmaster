@@ -1,44 +1,34 @@
 === All in One Webmaster ===
 Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
-Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Alexa, Blog Central, Quantcast, Facebook Insights, Search Engine Optimization, Google XML Sitemap, XML Sitemap, XML Sitemap Submission, Google Tag Manager, Google Authorship, Premium
+Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Alexa, Blog Central, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips,  Crunchify Premium Plugin, All in One Webmaster
 Requires at least: 3.5
-Tested up to: 3.7.1
-Stable tag: 8.3.1 
+Tested up to: 3.8.1
+Stable tag: 9.0
 
-Very Simple but Powerful All in One Webmaster Tool for All WordPress Users including Sitemap Submission.
+Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc. Analytics option 4 Google, Quantcast, Clicky, Compete
 
 == Description ==
 
 If you already know about the word SEO then you probably know about such webmasters tools like Google, Bing, and Yahoo. These tools help us to rank well in search engines just by getting a copy of our blog sitemap there in webmaster central. Doing this, the robots of these biggest search engines sit in our blog database and whenever a new is published there in our blogs these robots knock the search engines about the new posts and get our posts indexed.
 
-**[Upgrade to Premium Version](https://pro.crunchify.com/all-in-one-webmaster-premium/)**
+This is very Simple but Powerful All in One Webmaster Tool for All WordPress Users. It adds your requested meta tags into header and java script code to footer of your blog. This plugin allows you to easily integrate them with your blog. It has option to add Google, Bing, Alexa, Blog Catalog, Yahoo's Webmaster and Analytics code (meat tags). Single click sitemap submission to Google and Bing. In addition to that it has option to add tracking code for Clicky, Quantcast, Compete.com, SiteMeter.com analytics!! Site-Verification-Option, Google XML sitemap submission. There are more to come in next releases.
 
-This is very Simple but Powerful All in One Webmaster Tool for All WordPress Users. It adds your requested meta tags into header and java script code to footer of your blog. This plugin allows you to easily integrate them with your blog. It has option to add `Google, Bing, Alexa, Blog Catalog, Yahoo's` Webmaster and Analytics code (`meat tags`). `Single click sitemap submission` to `Google` and `Bing`. In addition to that it has option to add tracking code for Clicky, Quantcast, Compete.com, SiteMeter.com analytics!! Site-Verification-Option, Google XML sitemap submission. There are more to come in next releases. 
+Subscribe to Twitter and Facebook to get **latest update**:
 
-**Premium Version Features**
+[Twitter](http://twitter.com/Crunchify) |
+[Facebook](http://www.facebook.com/Crunchify) |
+[Feedback](http://crunchify.com/all-in-one-webmaster/) |
+[Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/all-in-one-webmaster/screenshots/)
+
+**Features**
 
 * Brand new dedicated plugin menu
-* No Advertisement
 * Facebook page insights, admin insights, app insights options
 * Google Authorship Options
-* Fast way to generate Google XML Sitemap - sitemap.xml (New in v10.1)
 * Google Tag Manager Integration (New in v10.1)
 * Header / Footer Section 
 * Misc Options - Add Global Site Favicon Option
-* There are lot more to come.. this is just an initial release of Premium Version
-* Just one time purchase and life time upgrade option.
-* [Feedback](https://pro.crunchify.com/all-in-one-webmaster-premium/)
-
-Subscribe to Twitter and Facebook to get **latest update**: 
-
-[Twitter](http://twitter.com/Crunchify) | 
-[Facebook](http://www.facebook.com/Crunchify) | 
-[Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/all-in-one-webmaster/screenshots/)
-
-**Lite Version Features**
-
-* Sitemap Submission Option to Google & Bing
 * Now no need to install more plugins. You can just copy the code of any services in a textarea. No more things to do.
 * NEW: Updates the Asynchronous Tracking snippet to the latest version provided by Google
 * Warning/Success/Failure messages on sitemap submission
@@ -70,10 +60,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 == Frequently Asked Questions ==
 
-= How can I upgrade to Premium Version? =
-* Just one time purchase and life time upgrade option. <a href="https://pro.crunchify.com/all-in-one-webmaster-premium/" target="_blank">Upgrade to Premium</a>. 
-
-= How do I find respective META-tags? 
+= How do I find respective META-tags? =
 * Visit these tutorials for: <a href="http://crunchify.com/how-to-find-google-webmaster-meta-tag-value-for-all-in-one-webmaster-premium/">Google Webmaster Meta Tag</a>, <a href="http://crunchify.com/how-to-find-bing-webmaster-metatag-value-to-verify-ownership-of-your-site/">Bing Webmaster Meta Tag</a>, <a href="http://crunchify.com/how-to-find-alexa-rank-meta-tag-value-for-all-in-one-webmaster-premium/">Alexa Rank Meta Tag</a>.
 
 = Where should I put Google, Bing, Yahoo Webmaster, etc META-tags? =
@@ -93,15 +80,31 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 = Got a Question? =
 * Please report your questions or bugs at Plugin <a href="http://Crunchify.com/all-in-one-webmaster/" target="_blank">Homepage</a>.
-* NOTE: I've created this plugin as of my personal interest only. 
 
 == Screenshots ==
-1. All WebMaster Options
-2. All Analytics Options
-3. Sitemap submission option to Google & Bing
-4. Sitemap submission result in Admin Panel
+1. All New All in One Webmaster Main Menu
+2. Webmaster Options
+3. Analytics Options
+4. Google Authorship Options
+5. Header / Footer Section
+6. Sitemap Submission to Google / Bing
+7. Favicon for your Blog Option
 
 == Changelog ==
+
+= 9.0 =
+* Major Plugin Updated with all below additional options
+* With Popular Demand added back Header / Footer Section
+* Google Authorship Options
+* Add Favicon to your Site Option
+* Submit Sitemaps to Google / Bing Option
+* Google Tag Manager - Digital marketing made (much) easier - Verification Script Added
+* Fixed duplicate Facebook Insight Option
+* Additional CSS files removed 
+* Additional JS files removed
+* Better Initialization of Plugin
+* Speed Boost-Up with code refactoring
+* Bug fixes
 
 = 8.3.1 =
 * Compatibility with WordPress 3.7.1.
@@ -129,4 +132,3 @@ Subscribe to Twitter and Facebook to get **latest update**:
 * Simplified configuration controls
 * Advanced advertisement tools
 * NOTE: Please revisit "Analytics Options" tab and enter newly introduced "Domain Name" field in new Universal Analytics.
-* Must read: http://crunchify.co/177hdKg  
