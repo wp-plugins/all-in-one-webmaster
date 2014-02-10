@@ -104,7 +104,8 @@ Subscribe to Twitter and Facebook to get **latest update**:
 * Additional JS files removed
 * Better Initialization of Plugin
 * Speed Boost-Up with code refactoring
-* Bug fixes
+* Lots of Bug fixes
+* [More Info](http://crunchify.com/all-in-one-webmaster/)
 
 = 8.3.1 =
 * Compatibility with WordPress 3.7.1.
