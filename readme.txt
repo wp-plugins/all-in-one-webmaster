@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Alexa, Blog Central, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips,  Crunchify Premium Plugin, All in One Webmaster
 Requires at least: 3.5
 Tested up to: 3.8.1
-Stable tag: 9.0
+Stable tag: 9.1
 
 Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc. Analytics option 4 Google, Quantcast, Clicky, Compete
 
@@ -91,6 +91,9 @@ Subscribe to Twitter and Facebook to get **latest update**:
 7. Favicon for your Blog Option
 
 == Changelog ==
+
+= 9.1 =
+* Number of Bug fixes
 
 = 9.0 =
 * Major Plugin Updated with all below additional options. You may need to fill all options again as this upgrade went through major design change.
