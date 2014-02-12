@@ -93,7 +93,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 == Changelog ==
 
 = 9.0 =
-* Major Plugin Updated with all below additional options
+* Major Plugin Updated with all below additional options. You may need to fill all options again as this upgrade went through major design change.
 * With Popular Demand added back Header / Footer Section
 * Google Authorship Options
 * Add Favicon to your Site Option
