@@ -94,7 +94,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 = 9.2 =
 * Bug fixes
-* Compatibility withh WordPress 3.9.1
+* Compatibility with WordPress 3.9.1
 
 = 9.1 =
 * Number of Bug fixes
