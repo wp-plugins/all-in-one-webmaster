@@ -24,13 +24,8 @@ require_once (dirname ( __FILE__ ) . '/aiow-premium-header.php');
 				<td><input id="styled" name="all_in_one_premium_google_analytics"
 					type="text" placeholder="Tracking ID" size="20"
 					value="<?php echo get_option('all_in_one_premium_google_analytics'); ?>" />
-					&nbsp;&nbsp; <input id="styled"
-					name="all_in_one_premium_google_analytics_domain" type="text"
-					placeholder="Domain Name" size="30"
-					value="<?php echo get_option('all_in_one_premium_google_analytics_domain'); ?>" />
                     &nbsp;<?=$aiow_google_ana?>
-                    <br />(Web Property ID: <font color="red"><code>UA-8123456-1</code></font>
-					& Domain Name: <font color="red"><code>crunchify.com</code></font>)<br />
+                    <br />(Web Property ID: <font color="red"><code>UA-8123456-1</code></font>)<br />
 				</td>
 			</tr>
 

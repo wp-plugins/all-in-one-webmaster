@@ -15,7 +15,7 @@
  *            Plugin Name: All in One Webmaster
  *            Plugin URI: http://crunchify.com/all-in-one-webmaster/
  *            Description: All in One Webmaster is the best webmaster plugin for WordPress that adds Meta-Tags and Scripts to your Site's Header and Footer Section automatically without changing any of your themes file and without slowing down your site.
- *            Version: 9.2
+ *            Version: 9.3
  *            Author: Arpit Shah
  *            Author URI: http://crunchify.com/
  *            Text Domain: aiow
@@ -40,7 +40,7 @@ class aiow_premium {
 	 *       
 	 * @var string
 	 */
-	protected $version = '9.2';
+	protected $version = '9.3';
 	
 	/**
 	 * The name of the plugin.
@@ -134,7 +134,6 @@ class aiow_premium {
 		
 		$bing_wm = get_option ( 'all_in_one_premium_bing_webmaster' );
 		$google_an = get_option ( 'all_in_one_premium_google_analytics' );
-		$google_an_domain = get_option ( 'all_in_one_premium_google_analytics_domain' );
 		$quantcast_an = get_option ( 'all_in_one_premium_quantcast_analytics' );
 		
 		$google_authorship_profile = get_option ( 'all_in_one_premium_google_authorship_profile' );
@@ -186,7 +185,7 @@ class aiow_premium {
 			echo '  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),' . "\n";
 			echo 'm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)' . "\n";
 			echo '})(window,document,\'script\',\'//www.google-analytics.com/analytics.js\',\'ga\');' . "\n";
-			echo 'ga(\'create\', \'' . $google_an . '\', \'' . $google_an_domain . '\');' . "\n";
+			echo 'ga(\'create\', \'' . $google_an . '\', \'auto\');' . "\n";
 			echo 'ga(\'send\', \'pageview\');' . "\n";
 			echo '</script>' . "\n";
 		}
@@ -305,7 +304,6 @@ add_option ( 'all_in_one_premium_fbinsights_webmaster_pageid', '' );
 add_option ( 'all_in_one_premium_fbinsights_webmaster_appid', '' );
 
 add_option ( 'all_in_one_premium_google_analytics', '' );
-add_option ( 'all_in_one_premium_google_analytics_domain', '' );
 add_option ( 'sitemap_URL', '' );
 add_option ( 'all_in_one_premium_clicky_analytics', '' );
 add_option ( 'all_in_one_premium_compete_analytics', '' );
@@ -437,7 +435,7 @@ function all_in_one_premium_save_all_options() {
 	}
 	
 	/*
-	 * Since 10.0 Header Footer Section Submission
+	 * Since 9.0 Header Footer Section Submission
 	 */
 	if (isset ( $_POST ['update_headerfooter'] )) {
 		if (! isset ( $_POST ['my_aiowz_update_setting'] ))
@@ -452,7 +450,7 @@ function all_in_one_premium_save_all_options() {
 	}
 	
 	/*
-	 * Since 10.0 Analytics Section Submission
+	 * Since 9.0 Analytics Section Submission
 	 */
 	if (isset ( $_POST ['update_analytics'] )) {
 		if (! isset ( $_POST ['my_aiowz_update_setting'] ))
@@ -461,7 +459,6 @@ function all_in_one_premium_save_all_options() {
 			die ( "Hmm .. looks like you didn't send any credentials.. No CSRF for you! " );
 		
 		update_option ( 'all_in_one_premium_google_analytics', ( string ) $_POST ['all_in_one_premium_google_analytics'] );
-		update_option ( 'all_in_one_premium_google_analytics_domain', ( string ) $_POST ['all_in_one_premium_google_analytics_domain'] );
 		update_option ( 'all_in_one_premium_clicky_analytics', ( string ) $_POST ['all_in_one_premium_clicky_analytics'] );
 		update_option ( 'all_in_one_premium_compete_analytics', ( string ) $_POST ['all_in_one_premium_compete_analytics'] );
 		update_option ( 'all_in_one_premium_quantcast_analytics', ( string ) $_POST ['all_in_one_premium_quantcast_analytics'] );
@@ -472,7 +469,7 @@ function all_in_one_premium_save_all_options() {
 	}
 	
 	/*
-	 * Since 10.0 Google Authorship Section Submission
+	 * Since 9.0 Google Authorship Section Submission
 	 */
 	if (isset ( $_POST ['update_google_authorship'] )) {
 		if (! isset ( $_POST ['my_aiowz_update_setting'] ))
@@ -488,7 +485,7 @@ function all_in_one_premium_save_all_options() {
 	}
 	
 	/*
-	 * Since 10.0 Misc Section Submission
+	 * Since 9.0 Misc Section Submission
 	 */
 	if (isset ( $_POST ['update_misc'] )) {
 		if (! isset ( $_POST ['my_aiowz_update_setting'] ))
@@ -503,7 +500,7 @@ function all_in_one_premium_save_all_options() {
 	}
 	
 	/*
-	 * Since 10.1 XML Sitemap Generation Options Setting
+	 * Since 9.1 XML Sitemap Generation Options Setting
 	 */
 	if (isset ( $_POST ['update_xml_sitemap_new'] )) {
 		if (! isset ( $_POST ['my_aiowz_update_setting'] ))
@@ -536,7 +533,7 @@ function all_in_one_premium_save_all_options() {
 	}
 		
 	/*
-	 * Since 10.0 Webmaster Section Submission
+	 * Since 9.0 Webmaster Section Submission
 	 */
 	if (isset ( $_POST ['update_webmaster'] )) {
 		if (! isset ( $_POST ['my_aiowz_update_setting'] ))
