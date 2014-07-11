@@ -93,7 +93,8 @@ Subscribe to Twitter and Facebook to get **latest update**:
 == Changelog ==
 
 = 9.3 =
-* Google Analytics code change as per official change. Now no need to specify domain name. 
+* Google Analytics code change as per official change. Now no need to specify domain name.
+* [More Info](http://crunchify.com/all-in-one-webmaster/)
 
 = 9.2 =
 * Bug fixes
