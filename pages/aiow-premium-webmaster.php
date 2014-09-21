@@ -28,7 +28,18 @@ require_once (dirname ( __FILE__ ) . '/aiow-premium-header.php');
 				</td>
 			</tr>
 			<tr valign="top">
-				<th scope="row" style="width: 32%;"><label>2) <b>Bing</b> WebMaster
+				<th scope="row" style="width: 32%;"><label>2) <b>Yandex</b> WebMaster
+						Center
+				</label></th>
+				<td><input id="styled" name="all_in_one_premium_yandex_webmaster"
+					type="text" size="55"
+					value="<?php echo get_option('all_in_one_premium_yandex_webmaster'); ?>" />
+					&nbsp; <br />(meta name="yandex-verification" content="<font color="red"><code>12gdw6884bb7f260</code></font>")<br />
+				</td>
+			</tr>
+			
+			<tr valign="top">
+				<th scope="row" style="width: 32%;"><label>3) <b>Bing</b> WebMaster
 						Center
 				</label></th>
 				<td><input id="styled" name="all_in_one_premium_bing_webmaster"
@@ -39,7 +50,7 @@ require_once (dirname ( __FILE__ ) . '/aiow-premium-header.php');
 				</td>
 			</tr>
 			<tr valign="top">
-				<th scope="row" style="width: 32%;"><label>3) <b>Alexa</b> Rank
+				<th scope="row" style="width: 32%;"><label>4) <b>Alexa</b> Rank
 				</label></th>
 				<td><input id="styled" name="all_in_one_premium_alexa_webmaster"
 					type="text" size="55"
@@ -48,7 +59,7 @@ require_once (dirname ( __FILE__ ) . '/aiow-premium-header.php');
 				</td>
 			</tr>
 			<tr valign="top" class="alternate">
-				<th scope="row" style="width: 32%;"><label>4) <b>BlogCatalog</b></label><?=$new_icon?></th>
+				<th scope="row" style="width: 32%;"><label>5) <b>BlogCatalog</b></label><?=$new_icon?></th>
 				<td><input id="styled" name="all_in_one_premium_bcatalog_webmaster"
 					type="text" size="55"
 					value="<?php echo get_option('all_in_one_premium_bcatalog_webmaster'); ?>" />
@@ -59,7 +70,7 @@ require_once (dirname ( __FILE__ ) . '/aiow-premium-header.php');
 			<!--  Since 10.1 -- Google Tag Manager  -->
 
 			<tr valign="top">
-				<th scope="row" style="width: 32%;"><label>5) <b>Google Tag Manager</b></label><?=$new_icon?></th>
+				<th scope="row" style="width: 32%;"><label>6) <b>Google Tag Manager</b></label><?=$new_icon?></th>
 				<td><input id="styled" name="all_in_one_premium_google_tag_manager"
 					type="text" size="55"
 					value="<?php echo get_option('all_in_one_premium_google_tag_manager'); ?>" />
@@ -68,7 +79,7 @@ require_once (dirname ( __FILE__ ) . '/aiow-premium-header.php');
 			</tr>
 
 			<tr valign="top" class="alternate">
-				<th scope="row" style="width: 32%;"><label>6) <b>Facebook Insights</b></label><?=$new_icon?><br>
+				<th scope="row" style="width: 32%;"><label>7) <b>Facebook Insights</b></label><?=$new_icon?><br>
 				<br>
 				<a href="http://www.facebook.com/insights/" target="_blank"
 					title="Click to visit Facebook Insight"><?=$help_icon?></a><i><a
