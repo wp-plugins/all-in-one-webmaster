@@ -15,7 +15,7 @@
  *            Plugin Name: All in One Webmaster
  *            Plugin URI: http://crunchify.com/all-in-one-webmaster/
  *            Description: All in One Webmaster is the best webmaster plugin for WordPress that adds Meta-Tags and Scripts to your Site's Header and Footer Section automatically without changing any of your themes file and without slowing down your site.
- *            Version: 9.5
+ *            Version: 9.6
  *            Author: Arpit Shah
  *            Author URI: http://crunchify.com/
  *            Text Domain: aiow
@@ -40,7 +40,7 @@ class aiow_premium {
 	 *       
 	 * @var string
 	 */
-	protected $version = '9.5';
+	protected $version = '9.6';
 	
 	/**
 	 * The name of the plugin.
@@ -126,6 +126,8 @@ class aiow_premium {
 	 */
 	public function aiow_premium_header() {
 		$google_wm = get_option ( 'all_in_one_premium_google_webmaster' );
+		$pinterest_wm = get_option ( 'all_in_one_premium_pinterest' );
+		
 		$yandex_wm = get_option ( 'all_in_one_premium_yandex_webmaster' );
 		$alexa_wm = get_option ( 'all_in_one_premium_alexa_webmaster' );
 		$bcatalog_wm = get_option ( 'all_in_one_premium_bcatalog_webmaster' );
@@ -151,6 +153,11 @@ class aiow_premium {
 		if (! ($google_wm == "")) {
 			$google_wm_meta = '<meta name="google-site-verification" content="' . $google_wm . '" /> ';
 			echo $google_wm_meta . "\n";
+		}
+
+		if (! ($pinterest_wm == "")) {
+			$pinterest_wm_meta = '<meta name="p:domain_verify" content="' . $pinterest_wm . '" /> ';
+			echo $pinterest_wm_meta . "\n";
 		}
 		
 		if (! ($yandex_wm == "")) {
@@ -309,6 +316,7 @@ add_option ( 'all_in_one_premium_bcatalog_webmaster', '' );
 add_option ( 'all_in_one_premium_fbinsights_webmaster', '' );
 add_option ( 'all_in_one_premium_fbinsights_webmaster_pageid', '' );
 add_option ( 'all_in_one_premium_fbinsights_webmaster_appid', '' );
+add_option ( 'all_in_one_premium_pinterest', '' );
 
 add_option ( 'all_in_one_premium_google_analytics', '' );
 add_option ( 'sitemap_URL', '' );
@@ -549,6 +557,7 @@ function all_in_one_premium_save_all_options() {
 			die ( "Hmm .. looks like you didn't send any credentials.. No CSRF for you! " );
 		
 		update_option ( 'all_in_one_premium_google_webmaster', ( string ) $_POST ["all_in_one_premium_google_webmaster"] );
+		update_option ( 'all_in_one_premium_pinterest', ( string ) $_POST ["all_in_one_premium_pinterest"] );
 		update_option ( 'all_in_one_premium_yandex_webmaster', ( string ) $_POST ["all_in_one_premium_yandex_webmaster"] );
 		update_option ( 'all_in_one_premium_google_tag_manager', ( string ) $_POST ["all_in_one_premium_google_tag_manager"] );
 		update_option ( 'all_in_one_premium_alexa_webmaster', ( string ) $_POST ["all_in_one_premium_alexa_webmaster"] );

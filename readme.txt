@@ -1,10 +1,10 @@
 === All in One Webmaster ===
 Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
-Tags: All in One Webmaster, Webmaster, SEO, Google, Bing, Google Analytics, Alexa, Blog Central, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips,  Crunchify Premium Plugin, All in One Webmaster
-Requires at least: 3.7
-Tested up to: 4.0
-Stable tag: 9.5
+Tags: All in One Webmaster, Webmaster, Pinterest, SEO, Google, Bing, Google Analytics, Alexa, Blog Central, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips,  Crunchify Premium Plugin, All in One Webmaster
+Requires at least: 3.9
+Tested up to: 4.1 - Beta 2
+Stable tag: 9.6
 
 Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc. Analytics option 4 Google, Quantcast, Clicky, Compete
 
@@ -44,12 +44,14 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 **Webmaster Option for**
 
-1. Google Webmaster
-2. Bing Webmaster
-3. Alexa Ranks (new)
-4. BlogCatalog (new)
-6. Facebook Insights
-7. Google Tag manager 
+1. Google Webmaster Tools
+2. Bing Webmaster Tools
+3. Yandex Search Engine (New)
+4. Pinterest Webmaster (New)
+5. Alexa Ranks
+6. BlogCatalog
+7. Facebook Insights
+8. Google Tag manager 
 
 == Installation ==
 1. Unpack the `download-package`.
@@ -91,6 +93,10 @@ Subscribe to Twitter and Facebook to get **latest update**:
 7. Favicon for your Blog Option
 
 == Changelog ==
+
+= 9.6 =
+* New: Pinterest Meta-Tag Verification Added.
+* Bug fixes
 
 = 9.5 =
 * New: Yandex Meta-Tag Verification Added. Russian biggest search engine.

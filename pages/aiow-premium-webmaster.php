@@ -28,17 +28,17 @@ require_once (dirname ( __FILE__ ) . '/aiow-premium-header.php');
 				</td>
 			</tr>
 			<tr valign="top">
-				<th scope="row" style="width: 32%;"><label>2) <b>Yandex</b> WebMaster
-						Center
+				<th scope="row" style="width: 32%;"><label>2) <b>Yandex</b>
+						WebMaster Center
 				</label></th>
 				<td><input id="styled" name="all_in_one_premium_yandex_webmaster"
 					type="text" size="55"
 					value="<?php echo get_option('all_in_one_premium_yandex_webmaster'); ?>" />
-					&nbsp; <br />(meta name="yandex-verification" content="<font color="red"><code>12gdw6884bb7f260</code></font>")<br />
-				</td>
+					&nbsp; <br />(meta name="yandex-verification" content="<font
+					color="red"><code>12gdw6884bb7f260</code></font>")<br /></td>
 			</tr>
-			
-			<tr valign="top">
+
+			<tr valign="top" class="alternate">
 				<th scope="row" style="width: 32%;"><label>3) <b>Bing</b> WebMaster
 						Center
 				</label></th>
@@ -79,9 +79,17 @@ require_once (dirname ( __FILE__ ) . '/aiow-premium-header.php');
 			</tr>
 
 			<tr valign="top" class="alternate">
-				<th scope="row" style="width: 32%;"><label>7) <b>Facebook Insights</b></label><?=$new_icon?><br>
-				<br>
-				<a href="http://www.facebook.com/insights/" target="_blank"
+				<th scope="row" style="width: 32%;"><label>7) <b>Pinterest Verification</b></label><?=$new_icon?></th>
+				<td><input id="styled" name="all_in_one_premium_pinterest"
+					type="text" size="55"
+					value="<?php echo get_option('all_in_one_premium_pinterest'); ?>" />
+					&nbsp; <br />i.e. (meta name="p:domain_verify" content="<font color="red"><code>771017f25ca2994a38624f0abdd16a3b</code></font>")<font color="red"></font><br />
+				</td>
+			</tr>
+
+			<tr valign="top">
+				<th scope="row" style="width: 32%;"><label>8) <b>Facebook Insights</b></label><?=$new_icon?><br>
+					<br> <a href="http://www.facebook.com/insights/" target="_blank"
 					title="Click to visit Facebook Insight"><?=$help_icon?></a><i><a
 						href="http://crunchify.com/facebook-insights-now-in-all-in-one-webmaster-wp-plugin/"
 						target="_blank">View Tutorial</a></i></th>

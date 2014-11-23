@@ -15,7 +15,6 @@ require_once (dirname ( __FILE__ ) . '/aiow-premium-header.php');
 
 	<div>
 		<table class="form-table">
-
 			<tr valign="top" class="alternate">
 				<th scope="row" style="width: 29%;"><label>Please provide existing
 						Sitemap URL</label></th>
@@ -23,7 +22,6 @@ require_once (dirname ( __FILE__ ) . '/aiow-premium-header.php');
 					value="<?php echo get_option('sitemap_URL'); ?>" /> <br />
 					(example: http://example.com/sitemap.xml)</td>
 			</tr>
-
 		</table>
 	</div>
 </div>
