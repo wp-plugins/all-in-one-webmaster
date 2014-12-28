@@ -2,9 +2,9 @@
 Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
 Tags: All in One Webmaster, Webmaster, Pinterest, SEO, Google, Bing, Google Analytics, Alexa, Blog Central, Quantcast, Facebook Insights, Search Engine Optimization, JQuery, ToolTips,  Crunchify Premium Plugin, All in One Webmaster
-Requires at least: 3.9
-Tested up to: 4.1 - Beta 2
-Stable tag: 9.6
+Requires at least: 4.0
+Tested up to: 4.1
+Stable tag: 9.7
 
 Sitemap submission to Google & Bing. Webmaster option 4 Google,Bing,Facebook,etc. Analytics option 4 Google, Quantcast, Clicky, Compete
 
@@ -93,6 +93,10 @@ Subscribe to Twitter and Facebook to get **latest update**:
 7. Favicon for your Blog Option
 
 == Changelog ==
+
+= 9.7 =
+* Minor Bug fixes
+* Compatibility with WordPress 4.1
 
 = 9.6 =
 * New: Pinterest Meta-Tag Verification Added.
